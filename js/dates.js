@@ -1,5 +1,3 @@
-const d = new Date();
-const year = d.getFullYear();
 
 
 //using get ElementById
@@ -7,5 +5,8 @@ const year = d.getFullYear();
 //document.getElementById("lastupdated").textContent = "Last Updated: " + document.lastModified;   (Professor prefers us to use a template literal insteda of concatenation)
 
 
-const lastmod = document.querySelector('#lastmod');
-lastmod.innerHTML = `Last Updated: ${document.lastModified}`;
+//const lastmod = document.querySelector('#lastmod');
+//lastmod.innerHTML = `Last Updated: ${document.lastModified}`;
+
+document.querySelector("#year").textContent = new Date().getFullYear();
+document.querySelector("#lastmod").textContent = `Last Updated: ${document.lastModified}`;
