@@ -1,0 +1,118 @@
+body {
+    max-width: 1280px;
+    display: block;
+    margin: auto;
+    background-color:#F6F6F8;
+
+}
+
+header {
+    background-color: #226BB0;
+    border-radius: 15px;
+    display: grid;
+    border:  #9FA8A3 15px;
+
+}
+
+h1 {
+    color: #F6F6F8;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color: #151617;
+    text-align: center;
+}
+
+#name {
+    margin-top: -15px;
+    color: #F6F6F8;
+}
+
+h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    color:#151617;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    padding: 5px;
+}
+
+.column {
+    max-width: 400px;
+    padding: 5px;
+    background-color: #F6F6F8;
+    border-radius: 20px;
+    box-shadow: 2px 2px 22px;
+}
+
+.chalk {
+    max-width: 100px;
+}
+
+.lego-img,
+.zalando-img,
+.apple-img {
+    max-width: 100%;
+}
+
+.home {
+    margin-top: 10px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    width: 30px;
+    border: solid 3px #9FA8A3;
+    font-family: 'Bebas Neue', cursive;
+}
+a:link, a:visited {
+    color: #9FA8A3;
+}
+a:hover {
+    color: #9FA8A3;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 50px;
+    text-align: justify;
+    color: #151617;
+    line-height: 25px;
+}
+footer p{
+
+    text-align: center;
+    color:#F6F6F8;
+}
+footer a:link,
+footer a:visited {
+    color: #9FA8A3;
+}
+
+footer a:hover {
+    color: #226BB0;
+}
+footer {
+    background-color: #226BB0;
+    border-radius: 15px;
+    border: #E3E0CF 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: #F6F6F8;
+    text-align: center;
+}
+
+
+
+

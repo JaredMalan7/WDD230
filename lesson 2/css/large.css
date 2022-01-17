@@ -1,0 +1,17 @@
+
+
+@media screen and (max-width: 750px) {
+    .home-grid {
+        grid-template-columns: auto;
+    }
+
+    .lego-img,
+    .zalando-img,
+    .apple-img {
+        min-width: 100%;
+    }
+
+    .column {
+        min-width: 100%;
+    }
+}
