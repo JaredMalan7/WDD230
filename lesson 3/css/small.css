@@ -8,9 +8,14 @@ header {
 }
 
 footer{
-    background-color: #3b66ac;
+    background-color: #3B66AC;
     text-align: center;
     padding: 1em;
+    margin: 35px;
+    box-shadow: 0 5px 5px 0 rgba(114, 106, 106);
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -20px;
+
 }
 
 
@@ -23,8 +28,9 @@ h1, h2, h3{
 .logo{
     width: 175px;
     padding: 0 20px;
+    margin-bottom: -40px;
 }
-
+/*
 .bar-menu{
     display: block;
     justify-content: center;
@@ -51,9 +57,47 @@ a:visited{
     color: #161717;
 }
 
+
+
+*/
+
+/*----------------------------------------*/
+nav{
+    background-color: #3b66ac;
+    line-height: 4em;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    box-shadow: 0 5px 5px 0 rgba(114, 106, 106);
+    margin: 40px;
+    margin-bottom: -40px;
+}
+
+nav ul{
+    list-style-type: none;
+
+}
+
+a{
+    text-decoration: none;
+    padding: .8em;
+    font-family: 'Lato', sans-serif;
+    color: #161717;
+}
+
+
+nav a{
+    padding: 1em;
+    min-width: 70px;
+    text-decoration: none;
+    color: #161717;
+
+}
+
 a:hover{
     background-color: rgba(214, 214, 214, 0.404);
 }
+/*----------------------------------------*/
 
 section{
     background-color: #FFFFFF;

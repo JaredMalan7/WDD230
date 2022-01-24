@@ -1,19 +1,9 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 37.5em) {
     nav ul {
-        display: flex;
-        margin-bottom: 1.2rem;
-        justify-content: space-around;
+        display: grid;
+        grid-template-columns: 1fr;
     }
-    nav ul li {
-        display: flex;
-        flex-direction: row;
-    }
-
-    nav ul li a {
-        flex: 1 1 100%;
-    }
-    main {
-        padding: 0 .5rem 0 .5rem;
+    a:hover{
+        background-color: rgba(214, 214, 214, 0.404);
     }
 }
-
