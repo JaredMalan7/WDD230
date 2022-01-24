@@ -9,28 +9,29 @@
         <title>Utah Mountain Chamber</title>   
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
-        
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@200;400&display=swap" rel="stylesheet">        
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/large.css">
         <link rel="stylesheet" href="css/medium.css">       
         <link rel="stylesheet" href="css/small.css">
-
+        <link rel="stylesheet" href="css/large.css">
     </head>
     <body>
           <header>
-              <img src="images/umc-bk.png" alt="Website Logo">
-              <h1>Utah Mountain Chamber</h1>
-          </header>
+              <img class="logo" src="images/umc-bk.png" alt="Website Logo">
+              <!--h1>Utah Mountain Chamber</h1-->
+          
           <nav>
-              <ul>
+              <ul class="bar-menu">
                   <li><a href="../index.html" title="">Home</a></li>
                   <li><a href="target-audience.html" title="">Targe Audience</a></li>
                   <li><a href="color-scheme.html" title="">Color Scheme</a></li>
                   <li><a href="typography.html" title="">Typography</a></li>
               </ul>
           </nav>
-          <main>
+        </header>
+        <main>
+        <section>
+        
             <h2>Site Purpose</h2>
             <p>
                 Utah Mountain Chamber connects users with many business professionals
@@ -40,16 +41,24 @@
                 invest, help with advertising, or a business partner you have come to the right place.
                 Join us and build your dreams with us.
             </p>
+        </section>
+        <section class="domain">
             <h2>Domain Name</h2>
             <p>www.utahmountainchamber.com</p>
             <h2>Logo</h2>
               <img src="images/umc-bk.png" alt="Website Logo">
-          </main>
-          <footer>
+            </section>
+        </main>
+        <footer>
+            <div>
+                <a class="home" href="https://jaredmalan7.github.io/wdd230/">Home</a>
+            </div>
+            <p>
             &copy; <span id="year"></span>
              .:|:. Jared Malan .:|:. Utah, BYU-I
+            </p>
             <p id="lastmod"></p>
             <script defer src="js/dates.js"></script>
-        </footer>    
+        </footer>  
   </body>
 </html>   
