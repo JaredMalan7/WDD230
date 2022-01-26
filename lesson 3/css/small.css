@@ -65,7 +65,6 @@ a:visited{
 nav{
     background-color: #3b66ac;
     line-height: 4em;
-    text-align: center;
     font-size: 15px;
     font-family: 'Lato', sans-serif;
     box-shadow: 0 5px 5px 0 rgba(114, 106, 106);
@@ -83,6 +82,7 @@ a{
     padding: .8em;
     font-family: 'Lato', sans-serif;
     color: #161717;
+    justify-content: center;
 }
 
 
