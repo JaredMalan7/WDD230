@@ -36,10 +36,6 @@ header {
     box-shadow: 0 5px 5px 0 rgba(114, 106, 106);
 }
 
-.logo {
-    width: 10px;
-}
-
 h1 {
     padding-left: 5px;
     font-family: 'Lato', sans-serif;
@@ -107,11 +103,8 @@ nav ul li.active a, .navigation a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+/* ----------------------------------------------*/
 
-/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block
- because the responsive class is added to the end of the class list like this in HTML.
-  <ul class="navigation responsive">
-*/
 .responsive li {
 	display: block;
 }
@@ -145,7 +138,7 @@ nav ul li.active a, .navigation a:hover {
 }
 
 .logo {
-    width: 75px;
+    width: 10px;
 }
 
 .icon {
