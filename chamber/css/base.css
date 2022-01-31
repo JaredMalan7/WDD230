@@ -1,0 +1,179 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    background-color: #CFCFCF;
+}
+
+main {
+    display: grid;
+    grid: repeat(5, 1fr)/ 1fr;
+    grid-row-gap: 10px;
+    padding: 1em;
+    margin: auto 1rem;
+    font-size: .7em;
+
+}
+
+main section {
+    background-color: #FFFFFF;
+    padding: .5em;
+    box-shadow: 0 5px 5px 0 rgba(114, 106, 106);
+    margin-bottom: 10px;
+
+}
+
+header {
+    display: grid;
+    grid: 2fr 1fr / 1fr 2fr 2fr 1fr;
+    align-items: center;
+    justify-items: center;
+    font-size: .7em;
+    background-color: #3B66AC;
+    color: white;
+    padding: .6em;
+    margin-bottom: .5rem;
+    grid-column-gap: .8rem;
+    box-shadow: 0 5px 5px 0 rgba(114, 106, 106);
+}
+
+.logo {
+    width: 10px;
+}
+
+h1 {
+    padding-left: 5px;
+    font-family: 'Lato', sans-serif;
+}
+
+button {
+    background-color: #011640;
+    color: white;
+    border: none;
+    font-size: 2em;
+}
+
+.extra {
+    display: none;
+}
+
+.date {
+    grid-row: 2/3;
+    grid-column: 1/5;
+    align-self: center;
+}
+
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+    margin: 0;
+    padding: .5rem;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    padding: 0;
+    font-size: 1em;
+    top: 15%;
+}
+
+.navigation li {
+	display: none;
+}
+
+.navigation a {
+	display: block;
+	padding: 0.75rem 2vw;
+	text-decoration: none;
+	color: white;
+	transition: 0.2s;
+}
+
+nav ul li.active a, .navigation a:hover {
+    background-color: #355B8C;
+}
+
+.hidden {
+    display: none;
+}
+
+.toggle-btn {
+    padding: 1em;
+}
+
+.social {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block
+ because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+	display: block;
+}
+
+.responsive ul {
+    position: absolute;
+    width: 100%;
+}
+
+.responsive a {
+    background-color: #011640;
+}
+
+.spotlight {
+    display: grid;
+    grid: 1fr 1fr / 1fr;
+    grid-row-gap: 2px;
+}
+
+.spotlight p {
+    border: 1px dotted #3B66AC;
+
+}
+
+#spotlight3 {
+    display: none;
+}
+
+.join {
+    display: none;
+}
+
+.logo {
+    width: 75px;
+}
+
+.icon {
+    width: 40px;
+}
+
+.social a img {
+    padding: .3em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color:#3B66AC;
+    color: white;
+    box-shadow: 0 5px 5px 0 rgba(114, 106, 106);
+
+}
+
+.contact-info a {
+    color: lightgray;
+}
+
+.contact-info a:hover {
+    color: darkgray;
+}
+
+.wdd-info {
+    padding: .5rem;
+}
+
