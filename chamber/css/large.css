@@ -1,16 +1,16 @@
 @media only screen and (min-width: 51em) {
 	header{
         font-size: 1rem;
-		grid: 1fr / 1fr 1fr 2fr 1fr;
+		grid: 1fr / 1fr 2fr 1fr;
     }
 
 	nav {
-		grid-column: 3/4;
+		grid-column: 2;
 		grid-row: 1/2;
 	}
 
 	.social {
-		grid-column: 4/5;
+		grid-column: 3;
 	}
 
 	.logo {
