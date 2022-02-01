@@ -14,7 +14,7 @@
 	}
 
 	.logo {
-        width: 100px;
+        width: 100%;
     }
 
 	main {
@@ -75,5 +75,7 @@
     button {
         display: none;
     }
-
+    .top-footer hr{
+        display: none;
+    }
 }

@@ -24,16 +24,16 @@ main section {
 
 header {
     display: grid;
-    grid: 2fr 1fr / 1fr 2fr 2fr 1fr;
+    grid: 1fr / 2fr 2fr 1fr;
     align-items: center;
     justify-items: center;
     font-size: .7em;
     background-color: #3B66AC;
     color: white;
-    padding: .6em;
-    margin-bottom: .5rem;
-    grid-column-gap: .8rem;
-    box-shadow: 0 5px 5px 0 rgba(114, 106, 106);
+    padding: 0.6em;
+    margin-bottom: 0.5rem;
+    grid-column-gap: 0.8rem;
+    box-shadow: 0 5px 5px 0 rgb(114 106 106);
 }
 
 h1 {
@@ -88,7 +88,7 @@ nav {
 }
 
 nav ul li.active a, .navigation a:hover {
-        background-color: rgba(214, 214, 214, 0.404);
+        background-color: rgba(81, 82, 141, 1);
 }
 
 .hidden {
@@ -115,7 +115,7 @@ nav ul li.active a, .navigation a:hover {
 }
 
 .responsive a {
-    background-color: #011640;
+    background-color: #CFCFCF;
 }
 
 .spotlight {
@@ -125,7 +125,7 @@ nav ul li.active a, .navigation a:hover {
 }
 
 .spotlight p {
-    border: 1px dotted #3B66AC;
+    border: 1px dotted #C3B66A;
 
 }
 
@@ -138,7 +138,7 @@ nav ul li.active a, .navigation a:hover {
 }
 
 .logo {
-    width: 10px;
+    width: 100%;
 }
 
 .icon {
@@ -157,7 +157,10 @@ footer {
     box-shadow: 0 5px 5px 0 rgba(114, 106, 106);
 
 }
-
+.logo-footer {
+    border: solid 1px;
+    width: 50%;
+}
 .contact-info a {
     color: lightgray;
 }

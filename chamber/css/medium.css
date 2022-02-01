@@ -4,7 +4,7 @@
     }
 
     .logo {
-        width: 100px;
+        width: 100%;
     }
 
     .extra {
@@ -84,4 +84,7 @@
         align-self: center;
     }
 
+    .top-footer hr{
+        display: none;
+    }
 }
