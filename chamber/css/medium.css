@@ -87,4 +87,8 @@
     .top-footer hr{
         display: none;
     }
+
+    .logo-footer {
+        width: 100%;
+    }
 }

@@ -141,6 +141,7 @@ nav ul li.active a, .navigation a:hover {
     width: 100%;
 }
 
+
 .icon {
     width: 40px;
 }
@@ -158,9 +159,9 @@ footer {
 
 }
 .logo-footer {
-    border: solid 1px;
-    width: 50%;
+    width: 40%;
 }
+
 .contact-info a {
     color: lightgray;
 }
