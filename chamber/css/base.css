@@ -42,7 +42,7 @@ h1 {
 }
 
 button {
-    background-color: #011640;
+    background-color: #CFCFCF;
     color: white;
     border: none;
     font-size: 2em;
@@ -88,7 +88,7 @@ nav {
 }
 
 nav ul li.active a, .navigation a:hover {
-    background-color: #355B8C;
+        background-color: rgba(214, 214, 214, 0.404);
 }
 
 .hidden {
