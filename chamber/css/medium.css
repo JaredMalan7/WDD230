@@ -8,10 +8,10 @@
         width: 100%;
     }
 
-    .extra {
-        display: initial;
-        font-size: .5em;
+    nav ul li.primary a, .navigation a:hover {
+        background-color: #CFCFCF;
     }
+
 
     main {
         grid: repeat(5, 1fr) / repeat(3, 1fr);
@@ -90,6 +90,6 @@
     }
 
     .logo-footer {
-        width: 100%;
+        width:100%;
     }
 }
