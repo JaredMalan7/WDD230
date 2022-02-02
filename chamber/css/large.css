@@ -1,7 +1,7 @@
 @media only screen and (min-width: 51em) {
 	header{
         font-size: 1rem;
-		grid: 1fr / 1fr 2fr 1fr;
+		grid: 2fr 1fr / 1fr 2fr 1fr;
     }
 
 	nav {
@@ -14,7 +14,7 @@
 	}
 
 	.logo {
-        width: 100%;
+        width: 80%;
     }
 
 	main {
@@ -80,6 +80,6 @@
     }
 
 	.logo-footer {
-        width: 100%;
+        width: 90%;
     }
 }
