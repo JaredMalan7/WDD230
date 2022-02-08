@@ -50,6 +50,9 @@ button {
     border-radius: 5px;
     font-size: 1.8em;
 }
+button:hover {
+    cursor: pointer;
+}
 
 .title {
     display: none;
