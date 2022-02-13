@@ -44,7 +44,12 @@
     <main>
         <section class="hero">
             <h2> Welcome to Utah Mountain Chamber</h2>
-            <img src="images/utah.jpg" alt="Utah mountains">
+            <picture class="hero-picture">
+                <source media="(max-width: 33.9em)" srcset="images/hero-small.jpg">
+                <source media="(min-width: 8100px)" srcset="images/hero-large.jpg">
+                <source media="(max-width: 815px)" srcset="images/hero-medium.jpg">
+                <img src="images/hero-large.jpg" alt="Utah mountains">
+            </picture>
             <button type="button" class="herojoin">Join the Chamber</button>
         </section>
         <section class="event">
