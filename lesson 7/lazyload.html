@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Author" content="Jared Malan">
+    <title>Jared Malan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+    <title>Lesson 7 | Lazy Loading Images</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Progressive Loading of Images</h1>
+    <div id="pics">
+    <picture>
+        <img src="Placeholder.png" data-src="//placeimg.com/300/400/food" alt="placeholder pic">
+    </picture>
+    <picture>
+        <img src="Placeholder.png" data-src="//placeimg.com/300/400/people" alt="placeholder pic">
+    </picture>
+    <picture>
+        <img src="Placeholder.png" data-src="//placeimg.com/300/400/any" alt="placeholder pic">
+    </picture>
+    <picture>
+        <img src="Placeholder.png" data-src="//placeimg.com/300/400/dog" alt="placeholder pic">
+    </picture>
+    <picture>
+        <img src="Placeholder.png" data-src="//placeimg.com/300/400/sport" alt="placeholder pic">
+    </picture>
+    <picture>
+        <img src="Placeholder.png" data-src="//placeimg.com/300/400/grayscale" alt="placeholder pic">
+    </picture>
+    </div>
+
+    <footer>
+        &copy; <span id="year"></span>
+         .:|:. Jared Malan .:|:. Utah, BYU-I
+        <p id="lastmod"></p>
+        <script defer src="js/dates.js"></script>
+        <script src="js/load.js" defer></script>
+    </footer>
+</body>
+</html>
+
