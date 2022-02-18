@@ -255,9 +255,17 @@ nav ul li.primary a {
     font-weight: bold;
     text-align: right;
     margin: 0;
-
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
+.icon-val {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background: #cfcfcf;
+}
 
 /* ------------------------------------------------------ */
 .news h3 {
