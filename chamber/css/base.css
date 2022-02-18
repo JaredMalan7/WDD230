@@ -43,6 +43,7 @@ h1, h2, h3, h4 {
     font-family: 'Lato', sans-serif;
 }
 
+
 button {
     background-color: #CFCFCF;
     color: white;
@@ -115,6 +116,7 @@ nav ul li.primary a {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 /* ----------------------------------------------*/
 
 .responsive li {
@@ -242,7 +244,19 @@ nav ul li.primary a {
 .weather {
     /* padding: .5em; */
     background-color: #FFFFFF;
+
 }
+.weather img{
+    display: flex;
+}
+.weather h4{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: right;
+    margin: 0;
+
+}
+
 
 /* ------------------------------------------------------ */
 .news h3 {
