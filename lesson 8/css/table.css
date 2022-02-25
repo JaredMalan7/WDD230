@@ -6,12 +6,12 @@ body {
 
 table {
     table-layout: auto;
-    width: 29%;
+    width: 40%;
     font-size: 14pt;
     border: 1px solid;
     padding: 10px;
     background-color: #e7ffed;
-    box-shadow: 15px 15px 10px #7fb9c2;
+    box-shadow: 15px 15px 10px #859ca0;
     margin:0 auto;
     font-weight:bold;
 }
@@ -19,8 +19,10 @@ table tbody tr:nth-child(even) {
     background-color: #e7f0ed;
 }
 
+
 thead {
-    font-size: 26pt;
+    font-size: 25pt;
+    font-weight: bold;
 }
 
 thead,
@@ -42,6 +44,7 @@ td {
 
 th {
     padding: 5px 15px;
+    font-weight: bolder;
 }
 
 .title {
@@ -49,7 +52,8 @@ th {
     color: white;
 }
 
+
 tfoot {
-    font-size: 10pt;
+    font-size: 14pt;
 }
 
