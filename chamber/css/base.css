@@ -320,13 +320,54 @@ footer {
 .contact-info a:hover {
     color: darkgray;
 }
-
-.join-title{
-   align-items: center;
+/* ------------------------------------------------------ */
+form {
+    margin: auto .5rem;
+}
+form label {
+    width: calc(100% -24px);
+    float: left;
+    padding: 10px;
+    min-height: 50px;
+    display: inline-grid;
+}
+form label input,
+form label select,
+form label textarea {
+    min-width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 7px;
+    border-radius: 3px;
+    border: solid 1px lightgrey;
 }
 
+form fieldset {
+    margin: 2rem 0;
+    border:1px solid ;
+    border-radius: 10px;
+    /* padding: .5rem 2.5%; */
+    max-width: 25rem;
+    padding-inline-end: 2rem;
+}
 fieldset {
+    padding: 0.35em 0.75em 0.625em;
+}
+form legend {
+    color: white;
+    margin: 0 1rem;
+    padding: .5rem;
+    background-color: #3B66AC;
+    border-radius: 10px;
+}
+ 
+.join-main{
+   text-align: center;
+}
 
+.join-main h2 {
+    display: block;
+    padding: 2rem;
+    margin:0;
 }
 
 
@@ -336,4 +377,5 @@ fieldset {
     .join {
         display: none;
     }
+
 }

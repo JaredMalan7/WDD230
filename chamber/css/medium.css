@@ -15,7 +15,7 @@
 
 
     main {
-        grid: repeat(5, auto) / repeat(3, 1fr);
+        /* grid: repeat(5, auto) / repeat(3, 1fr); */
         grid-column-gap: 10px;
         /* font-size: 1em; */
     }
