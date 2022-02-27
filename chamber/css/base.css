@@ -321,6 +321,16 @@ footer {
     color: darkgray;
 }
 
+.join-title{
+   align-items: center;
+}
+
+fieldset {
+
+}
+
+
+
 /* ------------------------------------------------------ */
 @media only screen and (max-width: 34em){
     .join {

@@ -21,7 +21,6 @@
 <body>
     <header>
         <img src="images/umc-wt2.webp" alt="Utah Mountain Chamber Logo" class="logo">
-        <!-- <h1> Utah Mountain <span class="title"><br> Chamber</span></h1> -->
         <div class="social">
             <a href="https://facebook.com" target="_blank"><img src="images/facebook-logo.png" alt="Facebook logo" class="icon"></a>
             <a href="https://linkedin.com" target="_blank"><img src="images/linkedin-3.png" alt="LinkedIn logo" class="icon"></a>
@@ -42,6 +41,51 @@
         </div>
     </header>
     <main>
+        <h2 class="join-title">Join the Utah Mountain Chamber</h2>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>General Information</legend>
+                <label class="top">First Name*<input type="text" name="first name" placeholder="Russell" required></label>
+                <label class="top">Last Name*<input type="text" name="lname" placeholder="Nelson" required></label>
+                <label class="top">Email*<input type="email" name="email" placeholder="rusellnelson@gmail.com" required></label>
+                <label class="top">Phone*<input type="tel" name="phone" placeholder="(801) 888-8888" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Business Information</legend>
+                <label class="top">Business name<input type="text" name="business-name"  title="business name"></label>
+                <label class="top">Position<input type="text" name="position" title="position" pattern="[A-Za-z\s-]{7,}" required></label>
+                <label class="top">Description <br><textarea rows="3" name="bus-description"></textarea></label>
+            </fieldset>
+            <fieldset>
+                <legend>Membership Package</legend>
+                <label>Non-profit</label>
+                <p>
+                    The Non-profit Membership is for non profit organizations and there is no fee.
+                </p>
+                <label>Bronze Membership</label>
+                <p>
+                    With the Bronze Membership you will get Access to our Company's directory, and you will also get featured on our website to help you grow faster by helping you connect with more businesses and costumers.
+                </p>
+                <label>Silver Membership</label>
+                <p>
+                    With the Silver Membership you will not only get featured on our website, but you will also get access to many local business events, and radio and television advertisement.
+                </p>
+                <label>Gold Membership</label>
+                <p>
+                    With the Gold Membership you will have acces to all of our services from the lower level memberships, and you will also have access to all of our media marketing services which include, Social Media sponoreds ads, YouTube ads, Google and Facebook reviews, and my other tools that will help you grow your business much faster.
+                </p>
+                <label for="membership">Memberships:
+                    <select name="membership" id="membership">
+                        <option value=""> Select Memebership Level</option>
+                        <option value="0">Non-profit</option>
+                        <option value="1">Bronze Membership $500. </option>
+                        <option value="2">Silver Membership $1000.</option>
+                        <option value="3">Gold Membership $2000. </option>
+                    </select>
+            </fieldset>
+            <label><input type="hidden" id="submitdate" name="submitdate" value=""></label>
+            <input type="submit" class="submitBtn" value="Join the Chamber">
+        </form>
 
     </main>
     <footer>
@@ -65,6 +109,4 @@
     <script defer src="js/dates.js"></script>
     <script src="js/menu.js"></script>
     </footer>
-</body>
-
 </body>
