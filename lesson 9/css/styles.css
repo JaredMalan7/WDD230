@@ -16,6 +16,7 @@ h1 {
     margin: 0 100px 0 100px;
     padding: 2px;
     color: white;
+    box-shadow: 0px 0px 26px 1px lightslategray;
 }
 
 
@@ -37,8 +38,10 @@ section {
     flex-direction: column;
     justify-content: center;
     background-color: #f3f3f3;
-    line-height: 0.5px;
+    /* line-height: px; */
     color: #333;
+    padding: 10px;
+    text-align: center;
 }
 
 h2, img, p {
