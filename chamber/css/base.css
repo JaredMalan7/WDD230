@@ -24,6 +24,10 @@ p{
     padding: .5em;
 }
 /* ----------------------------------------------*/
+.discover-body{
+    text-align: center;
+}
+
 .discover-main {
     display: grid;
     grid-template-columns: minmax(min-content, max-content);
