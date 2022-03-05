@@ -370,7 +370,7 @@ form legend {
 .join-main h2 {
     text-align: center;
     padding: 2rem;
-
+    margin-bottom: -2rem;
 }
 
 input {
@@ -388,12 +388,12 @@ form input.submitbutton {
     background-color: #3B66AC;
     color: white;
     border-radius: 10px;
-    margin: 0 auto;
+    margin-top: -5rem;
     
 }
 form input.submitbutton:hover {
-    background-color: #3B66AC;
-    cursor: pointer;
+    background-color: #06275e;
+    cursor: pointer;  
 }
 
 /* ------------------------------------------------------ */
