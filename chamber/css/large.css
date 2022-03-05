@@ -19,7 +19,7 @@
     }
 
 	main {
-		/* grid: repeat(3, auto) / 1fr 2fr 1fr; */
+		grid: repeat(3, auto) / 1fr 2fr 1fr;
 		margin: .5em auto;
 		max-width: 1000px;
 	}

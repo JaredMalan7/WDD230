@@ -351,7 +351,7 @@ form fieldset {
     border:1px solid ;
     border-radius: 10px;
     /* padding: .5rem 2.5%; */
-    max-width: 90%;
+    max-width: 25rem;
     padding-inline-end: 2rem;
 }
 fieldset {
@@ -366,17 +366,25 @@ form legend {
 }
  
 /* .join-main{
-   text-align: center;
+    display: grid;
+
+    grid-template-columns: 1fr;
+    align-items: center;
 } */
 
 .join-main h2 {
     text-align: center;
-    display: block;
+    /* display: block; */
     padding: 2rem;
     margin:0;
 }
-
-
+/* form input.submitbutton {
+    margin: 0 300px 0 300px;
+} */
+form input.submitbutton:hover {
+    background-color: #BF6F7E97;
+    cursor: pointer;
+}
 
 /* ------------------------------------------------------ */
 @media only screen and (max-width: 34em){
