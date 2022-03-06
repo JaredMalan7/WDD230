@@ -134,5 +134,12 @@
         grid-template-columns: 1fr;
         justify-items: center;
     }
+/*-----------------Thank you-------------------*/
+    main .main-thankyou {
+        grid: none;
+    }
 
+    .main-thankyou p{
+        font-size: 20px;
+    }
 }

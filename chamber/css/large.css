@@ -95,4 +95,9 @@
 	.logo-footer {
         width: 90%;
     }
+
+	/*----------thank you-----------*/
+	main.main-thankyou {
+         grid: none;
+    }
 }

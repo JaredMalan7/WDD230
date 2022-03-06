@@ -333,7 +333,7 @@ form label {
     width: 100%;
     /* float: left; */
     padding: 10px;
-    min-height: 50px;
+    /* min-height: 50px; */
     display: inline-grid;
 }
 form label input,
@@ -355,6 +355,10 @@ form fieldset {
     padding-inline-end: 2rem;
 }
 
+.label-title{
+    font-weight: bold;
+}
+
 form legend {
     color: white;
     margin: 0 1rem;
@@ -372,7 +376,9 @@ form legend {
     padding: 2rem;
     margin-bottom: -2rem;
 }
-
+.join-main p{
+    margin-top: -1em;
+}
 input {
     width: 100%;
     max-width: 200px;
@@ -388,8 +394,6 @@ form input.submitbutton {
     background-color: #3B66AC;
     color: white;
     border-radius: 10px;
-    margin-top: -5rem;
-    
 }
 form input.submitbutton:hover {
     background-color: #06275e;
