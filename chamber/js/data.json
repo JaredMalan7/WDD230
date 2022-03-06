@@ -1,0 +1,67 @@
+{
+    "companies": [
+        {
+            "name":     "Brigham Young University",
+            "address":  "D-155 ASB, Campus Dr, Provo, UT 84604",
+            "tel":      "(801) 422-4104",
+            "website":  "https://byu.edu/",
+            "image":    "./images/company/"
+        },
+        {
+            "name":     "Chip Cookies Co",
+            "address":  "470 N Freedom Blvd, Provo, UT 84601",
+            "tel":      null,
+            "website":  "https://www.chipcookies.co/",
+            "image":    "./images/company/"
+        },
+        {
+            "name":     "Zions Bank",
+            "address":  "P.O. Box 30709. Salt Lake City, UT 84130",
+            "tel":      "(888) 307-3411",
+            "website":  "https://www.zionsbank.com/",
+            "image":    "./images/company/"
+        },
+        {
+            "name":     "Costa Vida",
+            "address":  "3451 N Triumph Blvd, Suite 105, Lehi, UT 84043",
+            "tel":      "(801) 797-2374",
+            "website":  "https://www.costavida.com/",
+            "image":    "./images/company/"
+        },
+        {
+            "name":     "Splash Summit Waterpark",
+            "address":  "1330 300 N, Provo, UT 84606",
+            "tel":      "(385) 309-2388",
+            "website":  "https://www.splashsummit.com/",
+            "image":    "./images/company/"
+        },
+        {
+            "name":     "KSL",
+            "address":  "55 N 300 W Salt Lake City, UT",
+            "tel":      "(801) 575-5555",
+            "website":  "https://www.ksl.com/",
+            "image":    "./images/company/"
+        },
+        {
+            "name":     "Cafe Rio",
+            "address":  "215 N. Admiral Byrd Rd. Suite 100. Salt Lake City, UT 84116",
+            "tel":      "(801) 441-5000.",
+            "website":  "https://www.caferio.com/",
+            "image":    "./images/company/"
+        },
+        {
+            "name":     "Thanksgiving Point",
+            "address":  "3003 N Thanksgiving Way, Lehi, UT 84043",
+            "tel":      "(801) 768-2300",
+            "website":  "https://thanksgivingpoint.org/",
+            "image":    "./images/company/"
+        },
+        {
+            "name":     "Provo Beach",
+            "address":  "4801 N University Ave #210, Provo, UT 84604",
+            "tel":      "(801) 224-5001",
+            "website":  "https://provobeach.com/",
+            "image":    "./images/company/"
+        }
+    ]
+}
