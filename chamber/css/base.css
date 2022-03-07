@@ -399,7 +399,59 @@ form input.submitbutton:hover {
     background-color: #06275e;
     cursor: pointer;  
 }
+/*----------------directory--------------------*/
 
+main section.directory{
+    box-shadow: none;
+}
+
+.list-view img, .grid-view>section h3 {display: none;}
+
+.cards img{
+    display: block;
+    width: 40%;
+    margin: auto;
+}
+
+.cards section {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: .5em;
+    margin-bottom: 1em;
+    background-color: white;
+}
+.cards p {
+    margin: -.5em;
+}
+.cards a{
+    margin-bottom: 1em;
+}
+.grid-view {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid-view section {
+    padding: .5em;
+    margin: .5em;
+}
+
+.list-button-view {
+    padding: .5em;
+    background-color: #3B66AC;
+}
+
+.list-button-view button {
+    padding:.2rem;
+    background-color: white;
+    border: 2px #06275e solid;
+    border-radius: 2px;
+    margin: .3em;
+}
+
+.list-view section:nth-child(2n) {
+    background-color:#BF6F7E40;
+}
 /* ------------------------------------------------------ */
 @media only screen and (max-width: 34em){
     .join {

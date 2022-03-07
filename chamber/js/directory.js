@@ -1,55 +1,55 @@
-const requestURL = "data.json"
-const cards = document.querySelector('div.cards-view');
+const requestURL = "./js/data.json"
+const cards = document.querySelector('div.cards');
 const listButton = document.querySelector("#list-button");
-const cardButton = document.querySelector("#grid-button");
+const gridButton = document.querySelector("#grid-button");
 
 fetch(requestURL)
     .then(function (response) {
         return response.json();
     })
     .then(function (jsonObject) {
-        const businesses = jsonObject['companies'];
+        const companies = jsonObject['companies'];
         // console.table(jsonObject);
-        businesses.forEach(displayCompanies);
+        companies.forEach(displayCompanies);
     });
 
-function displayCompanies(companies) {
+function displayCompanies(company) {
   let card = document.createElement('section');
 
   //img
   let image = document.createElement('img');
-  image.src = business.imgfile;
-  image.setAttribute('alt', business.name);
+  image.src = company.image;
+  image.setAttribute('alt', company.name);
   card.appendChild(image);
 
   //h2 name
   let h3 = document.createElement('h3');
-  h3.textContent = business.name;
+  h3.textContent = company.name;
   card.appendChild(h3);
 
   //p address
   let p1 = document.createElement('p');
-  p1.textContent = business.address;
+  p1.textContent = company.address;
   card.appendChild(p1);
 
   //p phone
   let p2 = document.createElement('p');
-  p2.textContent = business.phone;
+  p2.textContent = company.phone;
   card.appendChild(p2);
 
   //p website
-  let p3 = document.createElement('p');
-  p3.textContent = business.website;
-  card.appendChild(p3);
+  let a = document.createElement('a');
+  a.textContent = company.website;
+  card.appendChild(a);
 
   cards.appendChild(card);
 
 }
 
 listButton.addEventListener("click", ()=> {
-    cards.classList.replace("card-view", "list-view")
+    cards.classList.replace("grid-view", "list-view")
 });
 
-cardButton.addEventListener("click", ()=> {
-    cards.classList.replace("list-view", "card-view")
+gridButton.addEventListener("click", ()=> {
+    cards.classList.replace("list-view", "grid-view")
 });
