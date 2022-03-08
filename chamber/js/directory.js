@@ -1,5 +1,5 @@
 const requestURL = "./js/data.json"
-const cards = document.querySelector('div.cards');
+const cards = document.querySelector('div.cards-2');
 const listButton = document.querySelector("#list-button");
 const gridButton = document.querySelector("#grid-button");
 

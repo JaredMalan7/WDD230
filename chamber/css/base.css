@@ -15,7 +15,7 @@ main {
 }
 
 main section {
-        /* background-color: #FFFFFF; */
+    /* background-color: #FFFFFF; */
     /* padding: .5em; */
     box-shadow: 0 5px 5px 0 rgba(114, 106, 106);
     margin-bottom: 10px;
@@ -407,23 +407,23 @@ main section.directory{
 
 .list-view img, .grid-view>section h3 {display: none;}
 
-.cards img{
+.cards-2 img{
     display: block;
     width: 40%;
     margin: auto;
 }
 
-.cards section {
+.cards-2 section {
     display: grid;
     grid-template-columns: 1fr;
     padding: .5em;
     margin-bottom: 1em;
     background-color: white;
 }
-.cards p {
+.cards-2 p {
     margin: -.5em;
 }
-.cards a{
+.cards-2 a{
     margin-bottom: 1em;
 }
 .grid-view {

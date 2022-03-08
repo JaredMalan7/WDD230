@@ -100,4 +100,13 @@
 	main.main-thankyou {
          grid: none;
     }
+	/*-------------------Directory-------------------*/
+    main.main-directory{
+		grid: none;
+	}
+	div.cards{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1em;
+    } 
 }
