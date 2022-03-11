@@ -16,6 +16,21 @@ displayProphets = (prophet) => {
     let birthdate = document.createElement('h3');
     let birthplace = document.createElement('h3');
     let portrait = document.createElement('img');
+    let order = ``;
+
+    switch (prophet.order) {
+        case 1:
+          order = `${prophet.order}st`;
+          break;
+        case 2:
+          order = `${prophet.order}nd`;
+          break;
+        case 3:
+          order = `${prophet.order}rd`;
+          break;
+        default:
+          order = `${prophet.order}th`;
+      }
 
 
     h2.textContent = `${prophet.name} ${prophet.lastname}`;
@@ -24,7 +39,7 @@ displayProphets = (prophet) => {
 
 
     portrait.setAttribute('src', prophet.imageurl);
-    portrait.setAttribute('alt', `Portait of ${prophet.name} ${prophet.lastname}`);
+    portrait.setAttribute('alt', `Portait of ${prophet.name} ${prophet.lastname}- ${order} Latter-Day President`);
     portrait.setAttribute('loading', 'lazy');
 
 
