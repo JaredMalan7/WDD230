@@ -405,8 +405,6 @@ main section.directory{
     box-shadow: none;
 }
 
-.list-view img, .grid-view>section h3 {display: none;}
-
 .cards-2 img{
     display: block;
     width: 40%;
@@ -417,7 +415,7 @@ main section.directory{
     display: grid;
     grid-template-columns: 1fr;
     padding: .5em;
-    margin-bottom: 1em;
+    /* margin-bottom: 1em; */
     background-color: white;
 }
 .cards-2 p {
@@ -431,14 +429,26 @@ main section.directory{
     grid-template-columns: 1fr;
 }
 
-.grid-view section {
-    padding: .5em;
-    margin: .5em;
-}
+
+.list-view img, .grid-view>section h3 {display: none;}
+
+main.main-directory section {
+    margin-bottom: 0;
+} 
+
+
+.list-view>section h3 {display: block;}
 
 .list-button-view {
     padding: .5em;
     background-color: #3B66AC;
+}
+
+.list-view section {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: .5em;
+
 }
 
 .list-button-view button {
@@ -449,9 +459,10 @@ main section.directory{
     margin: .3em;
 }
 
-.list-view section:nth-child(2n) {
-    background-color:#BF6F7E40;
-}
+
+/* .list-view section:nth-child(2n) {
+    background-color: #CFCFCF;
+} */
 /* ------------------------------------------------------ */
 @media only screen and (max-width: 34em){
     .join {
