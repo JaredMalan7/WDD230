@@ -9,7 +9,6 @@ fetch(requestURL)
     })
     .then(function (jsonObject) {
         const companies = jsonObject['companies'];
-        // console.table(jsonObject);
         companies.forEach(displayCompanies);
     });
 
