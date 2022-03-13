@@ -432,7 +432,7 @@ main section.directory{
 
 .list-view img, .grid-view>section h3 {display: none;}
 
-main.main-directory section {
+.main-directory .list-view section {
     margin-bottom: 0;
 } 
 

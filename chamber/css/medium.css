@@ -144,11 +144,19 @@
     }
 /*-------------------Directory-------------------*/
 
-    .cards-2{
+    /* div.cards-2{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 1em;
-    }    
+    } */
 
-
+    .list-view section {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .grid-view {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap:1em;
+    }
+    
 }

@@ -33,11 +33,13 @@ function displayCompanies(company) {
 
   //p phone
   let p2 = document.createElement('p');
-  p2.textContent = company.phone;
+  p2.textContent = `Phone: ${(company.phone ==null) ? 'Not Available': company.phone}`;
   card.appendChild(p2);
 
   //p website
   let a = document.createElement('a');
+  a.setAttribute("href", company.website);
+  a.setAttribute('target', '_blank');
   a.textContent = company.website;
   card.appendChild(a);
 
