@@ -265,12 +265,12 @@ nav ul li.primary a {
     display: flex;
 }
 .weather h4{
-    font-size: x-large;
+    font-size: medium;
     font-weight: bold;
-    text-align: right;
+    /* text-align: right; */
     margin: 0;
     display: flex;
-    justify-content: center;
+    text-align: center;
     flex-direction: column;
 }
 

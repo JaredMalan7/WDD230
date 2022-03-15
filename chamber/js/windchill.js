@@ -1,4 +1,28 @@
-const t = parseInt(document.querySelector("#temp").textContent);
+
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?q=Provo&units=imperial&appid=484752097f280044c18d81076e89e052";
+
+
+fetch( apiURL )
+    .then( response => response.json())
+    .then( data => {
+        if( data.cod == 401 || data.cod == 404 )
+            console.log(`ERROR (#${data.cod}): ${data.message}`);
+        else {
+
+            const iconSrc = 'https://openweathermap.org/img/w/' + data.weather[0].icon + '.png';
+            const desc = data.weather[0].description;
+            
+            document.querySelector('#temp').textContent = data.main.temp.toFixed(1);
+            document.querySelector('.wheater-img > img').setAttribute('src', iconSrc);
+            document.querySelector('.wheater-img > img').setAttribute('alt', desc);
+            document.querySelector('#wheater-api').textContent = desc;
+            document.querySelector("#speed").textContent = data.wind.speed;
+            
+        }
+    });
+
+
+const t = parseInt(document.querySelector("temp").textContent);
 const s = parseInt(document.getElementById("speed").textContent);
 
 if(t <= 50 && s > 3) {
