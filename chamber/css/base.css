@@ -266,6 +266,9 @@ nav ul li.primary a {
     justify-content: space-around;
 }
 
+section.weather p{
+    margin: auto;
+}
 
 .weather h4{
     font-size: medium;
