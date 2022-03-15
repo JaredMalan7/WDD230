@@ -13,16 +13,16 @@ fetch( apiURL )
             const desc = data.weather[0].description;
             
             document.querySelector('#temp').textContent = data.main.temp.toFixed(1);
-            document.querySelector('.wheater-img > img').setAttribute('src', iconSrc);
-            document.querySelector('.wheater-img > img').setAttribute('alt', desc);
-            document.querySelector('#wheater-api').textContent = desc;
+            document.querySelector('.weather-img > img').setAttribute('src', iconSrc);
+            document.querySelector('.weather-img > img').setAttribute('alt', desc);
+            document.querySelector('#weather-api').textContent = desc;
             document.querySelector("#speed").textContent = data.wind.speed;
             
         }
     });
 
 
-const t = parseInt(document.querySelector("temp").textContent);
+const t = parseInt(document.querySelector("#temp").textContent);
 const s = parseInt(document.getElementById("speed").textContent);
 
 if(t <= 50 && s > 3) {

@@ -261,9 +261,12 @@ nav ul li.primary a {
     background-color: #FFFFFF;
 
 }
-.weather img{
+.weather-img{
     display: flex;
+    justify-content: space-around;
 }
+
+
 .weather h4{
     font-size: medium;
     font-weight: bold;
