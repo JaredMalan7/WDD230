@@ -472,16 +472,27 @@ main section.directory{
 
 /* ------------------------Contact Us------------------------------ */
 
+main.main-contact{
+    margin-bottom: 0;
+
+}
 .main-contact{
     justify-items: center;
 }
-/* .contact-map{
-    ;
-} */
+
+.information{
+    background-color: #FFFFFF;
+    box-shadow: none;
+}
 
 .contact-i{
     background-color: white;
+    box-shadow: none;
     /* padding: 1em; */
+}
+.contact-map{
+    box-shadow: none;
+    margin-bottom: 0;
 }
 .contact-i h3{
     background-color: #3B66AC;
