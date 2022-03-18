@@ -469,6 +469,27 @@ main section.directory{
 /* .list-view section:nth-child(2n) {
     background-color: #CFCFCF;
 } */
+
+/* ------------------------Contact Us------------------------------ */
+
+.main-contact{
+    justify-items: center;
+}
+/* .contact-map{
+    ;
+} */
+
+.contact-i{
+    background-color: white;
+    /* padding: 1em; */
+}
+.contact-i h3{
+    background-color: #3B66AC;
+    margin-top: auto;
+    padding: 1em;
+    color: #FFFFFF;
+}
+
 /* ------------------------------------------------------ */
 @media only screen and (max-width: 34em){
     .join {

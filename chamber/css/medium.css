@@ -158,5 +158,18 @@
         grid-template-columns: repeat(2, 1fr);
         grid-gap:1em;
     }
-    
+/* ------------------------Contact Us------------------------------ */
+
+    main.main-contact{
+        grid: none;
+    }
+    .information{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1em;
+        box-shadow: none;
+    }
+    .contact-i, .contact-map{
+        box-shadow: none;
+    }
 }
