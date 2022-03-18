@@ -483,6 +483,7 @@ main.main-contact{
 .information{
     background-color: #FFFFFF;
     box-shadow: none;
+    min-width: 100%;
 }
 
 .contact-i{
@@ -492,7 +493,6 @@ main.main-contact{
 }
 .contact-map{
     box-shadow: none;
-    margin-bottom: 0;
 }
 .contact-i h3{
     background-color: #3B66AC;

@@ -168,6 +168,7 @@
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 1em;
         box-shadow: none;
+        min-width: 80%;
         
     }
     .contact-i, .contact-map{
