@@ -73,7 +73,7 @@
     .spotlight {
         grid-column: 1/4;
         grid-row: 3/4;
-        grid: 1fr / 1fr 1fr;
+        /* grid: 1fr / 1fr 1fr; */
         grid-column-gap: 5px;
     }
 

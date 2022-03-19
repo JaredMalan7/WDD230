@@ -61,7 +61,7 @@
 	.spotlight {
 		grid-row: 1/4;
 		grid-column: 3/4;
-		grid: repeat(3, 1fr) / 1fr;
+		/* grid: repeat(3, 1fr) / 1fr; */
 		grid-column-gap: 10px;
 	}
 
