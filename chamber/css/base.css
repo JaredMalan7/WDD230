@@ -484,6 +484,7 @@ main.main-contact{
     background-color: #FFFFFF;
     box-shadow: none;
     min-width: 100%;
+    margin-bottom: 2em;
 }
 
 .contact-i{
@@ -493,6 +494,9 @@ main.main-contact{
 }
 .contact-map{
     box-shadow: none;
+}
+section.contact-map{
+    margin-bottom: auto;
 }
 .contact-i h3{
     background-color: #3B66AC;
