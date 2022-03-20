@@ -71,6 +71,30 @@
             "website":  "https://provobeach.com/",
             "image":    "./company/provo-beach-2.png",
             "membership": "Silver"
+        },
+        {
+            "name":     "Swig",
+            "address":  "2162 W Grove Parkway Suite 220 Pleasant Grove, UT",
+            "phone":    "801-642-3800",
+            "website":  "https://www.swignsweets.com/",
+            "image":    "./company/swig-2.png",
+            "membership": "Silver"
+        },
+        {
+            "name":     "Utah Jazz",
+            "address":  "301 W. South Temple Salt Lake City, UT",
+            "phone":    "(801) 325-2500",
+            "website":  "https://www.nba.com/jazz/contact",
+            "image":    "./company/utah-jazz-2.png",
+            "membership": "Gold"
+        },
+        {
+            "name":     "Good Move",
+            "address":  "1 E Center St Ste 100, Provo, UT",
+            "phone":    "(801) 850-9113",
+            "website":  "https://goodmovecafe.com/",
+            "image":    "./company/good-move-2.png",
+            "membership": "Bronze"
         }
     ]
 }

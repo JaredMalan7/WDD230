@@ -66,6 +66,10 @@
         background-color: #0b2455ba;
         
     }
+
+    .join button:hover{
+        background-color: #0b2455;
+    }
     /*------------------------------------*/
     .event {
         grid-column: 1/3;
@@ -83,7 +87,7 @@
         grid-column: 1/4;
         grid-row: 3/4;
         grid-template-columns: 1fr 1fr;
-        grid-column-gap: 5px;
+        grid-column-gap: 15px;
         
     }
 

@@ -67,6 +67,7 @@ button {
 }
 button:hover {
     cursor: pointer;
+    background-color: #0b2455e0;
 }
 
 .title {
@@ -106,6 +107,7 @@ nav {
 	text-decoration: none;
 	color: white;
 	transition: 0.2s;
+   
 
 }
 
@@ -171,6 +173,9 @@ nav ul li.primary a {
 
 .spotlight p{ 
     margin-bottom: auto;
+}
+.spotlight a{
+    color: #0b2455;
 }
 
 #spotlight3 {
@@ -366,6 +371,7 @@ form fieldset {
     /* padding: .5rem 2.5%; */
     max-width: 50rem;
     padding-inline-end: 2rem;
+    background-color: white;
 }
 
 .label-title{
