@@ -13,7 +13,7 @@
             "address":  "470 N Freedom Blvd, Provo, UT 84601",
             "phone":    null,
             "website":  "https://www.chipcookies.co/",
-            "image":    "./company/chip.png",
+            "image":    "./company/chip-2.png",
             "membership": "Silver"
         },
         {
@@ -29,7 +29,7 @@
             "address":  "3451 N Triumph Blvd, Suite 105, Lehi, UT 84043",
             "phone":    "(801) 797-2374",
             "website":  "https://www.costavida.com/",
-            "image":    "./company/costa-vida.png",
+            "image":    "./company/costa-vida-2.png",
             "membership": "Gold"
         },
         {
@@ -37,7 +37,7 @@
             "address":  "1330 300 N, Provo, UT 84606",
             "phone":    "(385) 309-2388",
             "website":  "https://www.splashsummit.com/",
-            "image":    "./company/splash-summit.png",
+            "image":    "./company/splash-summit-2.png",
             "membership": "Silver"
         },
         {
@@ -45,7 +45,7 @@
             "address":  "55 N 300 W Salt Lake City, UT",
             "phone":    "(801) 575-5555",
             "website":  "https://www.ksl.com/",
-            "image":    "./company/ksl.png",
+            "image":    "./company/ksl-2.png",
             "membership": "Bronze"
         },
         {
@@ -53,7 +53,7 @@
             "address":  "215 N. Admiral Byrd Rd. Suite 100. Salt Lake City, UT 84116",
             "phone":    "(801) 441-5000.",
             "website":  "https://www.caferio.com/",
-            "image":    "./company/cafe-rio.png",
+            "image":    "./company/cafe-rio-2.png",
             "membership": "Bronze"
         },
         {
@@ -61,7 +61,7 @@
             "address":  "3003 N Thanksgiving Way, Lehi, UT 84043",
             "phone":    "(801) 768-2300",
             "website":  "https://thanksgivingpoint.org/",
-            "image":    "./company/thanksgiving-point.png",
+            "image":    "./company/thanksgiving-point-2.png",
             "membership": "Gold"
         },
         {
@@ -69,7 +69,7 @@
             "address":  "4801 N University Ave #210, Provo, UT 84604",
             "phone":    "(801) 224-5001",
             "website":  "https://provobeach.com/",
-            "image":    "./company/provo-beach.png",
+            "image":    "./company/provo-beach-2.png",
             "membership": "Silver"
         }
     ]

@@ -1,7 +1,7 @@
 @media only screen and (min-width: 34em) {
     header {
         font-size: .7em;
-        grid: 2fr 1fr / 1fr 2fr 1fr;
+        /* grid: 2fr 1fr / 1fr 2fr 1fr; */
     }
 
     .logo {
@@ -20,6 +20,15 @@
         /* font-size: 1em; */
         
     }
+    
+    .home-main {
+        display: grid;
+        grid-column-gap: 10px;
+        grid-row-gap: 1em;
+    }
+
+
+
     
     h4{
         padding: 1em;
@@ -52,7 +61,7 @@
     }
     .join button{
 		width: 80%;
-	    margin-left: 2em;
+	    margin-left: 3.5rem;
         margin-top: .7em;
         background-color: #0b2455ba;
         
@@ -73,8 +82,13 @@
     .spotlight {
         grid-column: 1/4;
         grid-row: 3/4;
-        /* grid: 1fr / 1fr 1fr; */
+        grid-template-columns: 1fr 1fr;
         grid-column-gap: 5px;
+        
+    }
+
+    .spotlight h3 {
+        grid-column: 1/3;
     }
 
     .top-footer {
@@ -94,7 +108,7 @@
         padding-left: 10px;
     }
 
-    .company h2 {
+    .company h3 {
         margin-block-end: 0;
         padding-left: 10px;
     }
@@ -103,7 +117,7 @@
     .company img {
         grid-column: 1/2;
         grid-row: 1/3;
-        justify-self: end;
+        /* justify-self: end; */
         align-self: center;
     }
 

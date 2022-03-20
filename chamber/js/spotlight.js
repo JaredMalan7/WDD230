@@ -22,7 +22,7 @@ fetch(requestURL)
 
             //p phone
             let p2 = document.createElement('p');
-            p2.textContent = company.phone;
+            p2.textContent = `Phone: ${(company.phone ==null) ? 'Not Available': company.phone}`;
             spotlight.appendChild(p2);
 
             //p website
