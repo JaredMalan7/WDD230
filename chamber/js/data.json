@@ -5,7 +5,7 @@
             "address":  "D-155 ASB, Campus Dr, Provo, UT 84604",
             "phone":    "(801) 422-4104",
             "website":  "https://byu.edu/",
-            "image":    "./company/byu-2.png",
+            "image":    "./company/byu-2.webp",
             "membership": "Gold"
         },
         {
@@ -13,7 +13,7 @@
             "address":  "470 N Freedom Blvd, Provo, UT 84601",
             "phone":    null,
             "website":  "https://www.chipcookies.co/",
-            "image":    "./company/chip-2.png",
+            "image":    "./company/chip-2.webp",
             "membership": "Silver"
         },
         {
@@ -21,7 +21,7 @@
             "address":  "P.O. Box 30709. Salt Lake City, UT 84130",
             "phone":    "(888) 307-3411",
             "website":  "https://www.zionsbank.com/",
-            "image":    "./company/zions-bank.png",
+            "image":    "./company/zions-bank-2.webp",
             "membership": "Bronze"
         },
         {
@@ -29,7 +29,7 @@
             "address":  "3451 N Triumph Blvd, Suite 105, Lehi, UT 84043",
             "phone":    "(801) 797-2374",
             "website":  "https://www.costavida.com/",
-            "image":    "./company/costa-vida-2.png",
+            "image":    "./company/costa-vida-2.webp",
             "membership": "Gold"
         },
         {
@@ -37,7 +37,7 @@
             "address":  "1330 300 N, Provo, UT 84606",
             "phone":    "(385) 309-2388",
             "website":  "https://www.splashsummit.com/",
-            "image":    "./company/splash-summit-2.png",
+            "image":    "./company/splash-summit-2.webp",
             "membership": "Silver"
         },
         {
@@ -45,7 +45,7 @@
             "address":  "55 N 300 W Salt Lake City, UT",
             "phone":    "(801) 575-5555",
             "website":  "https://www.ksl.com/",
-            "image":    "./company/ksl-2.png",
+            "image":    "./company/ksl-2.webp",
             "membership": "Bronze"
         },
         {
@@ -53,7 +53,7 @@
             "address":  "215 N. Admiral Byrd Rd. Suite 100. Salt Lake City, UT 84116",
             "phone":    "(801) 441-5000.",
             "website":  "https://www.caferio.com/",
-            "image":    "./company/cafe-rio-2.png",
+            "image":    "./company/cafe-rio-2.webp",
             "membership": "Bronze"
         },
         {
@@ -61,7 +61,7 @@
             "address":  "3003 N Thanksgiving Way, Lehi, UT 84043",
             "phone":    "(801) 768-2300",
             "website":  "https://thanksgivingpoint.org/",
-            "image":    "./company/thanksgiving-point-2.png",
+            "image":    "./company/thanksgiving-point-2.webp",
             "membership": "Gold"
         },
         {
@@ -69,7 +69,7 @@
             "address":  "4801 N University Ave #210, Provo, UT 84604",
             "phone":    "(801) 224-5001",
             "website":  "https://provobeach.com/",
-            "image":    "./company/provo-beach-2.png",
+            "image":    "./company/provo-beach-2.webp",
             "membership": "Silver"
         },
         {
@@ -77,7 +77,7 @@
             "address":  "2162 W Grove Parkway Suite 220 Pleasant Grove, UT",
             "phone":    "801-642-3800",
             "website":  "https://www.swignsweets.com/",
-            "image":    "./company/swig-2.png",
+            "image":    "./company/swig-2.webp",
             "membership": "Silver"
         },
         {
@@ -85,7 +85,7 @@
             "address":  "301 W. South Temple Salt Lake City, UT",
             "phone":    "(801) 325-2500",
             "website":  "https://www.nba.com/jazz/contact",
-            "image":    "./company/utah-jazz-2.png",
+            "image":    "./company/utah-jazz-2.webp",
             "membership": "Gold"
         },
         {
@@ -93,7 +93,7 @@
             "address":  "1 E Center St Ste 100, Provo, UT",
             "phone":    "(801) 850-9113",
             "website":  "https://goodmovecafe.com/",
-            "image":    "./company/good-move-2.png",
+            "image":    "./company/good-move-2.webp",
             "membership": "Bronze"
         }
     ]
