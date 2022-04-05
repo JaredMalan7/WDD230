@@ -1,0 +1,276 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #EAEAEA;
+}
+h1, h2, h3, h4 {
+    padding-left: 5px;
+    font-family: 'Anaheim', sans-serif;
+    font-size: 30px;
+    margin: 10px;
+}
+/* 
+#AD974F Gold
+#231F20 Darkgrey
+#EAEAEA Silver
+#8E793E Dark Gold 
+*/
+
+/* ----------------------------------------------*/
+
+
+
+
+/* ----------------------------------------------*/
+header {
+    display: grid;
+    grid: 1fr / 1fr 2fr 1fr;
+    align-items: center;
+    justify-items: center;
+    font-size: .7em;
+    background-color: #ffff;
+    color: #231F20;
+    padding: 0.6em;
+    margin-bottom: 0.5rem;
+    grid-column-gap: 0.8rem;
+}
+
+.active{
+    background-color: #AD974F;
+}
+
+button {
+    background-color: #AD974F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.8em;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #231F20;
+}
+
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+    margin-top: 2.5rem;
+    padding: .5rem;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+.navigation li {
+	display: none;
+}
+
+.navigation a {
+	display: block;
+	padding: 0.75rem 2vw;
+	text-decoration: none;
+	color: #231F20;
+	transition: 0.2s;
+   
+}
+
+.navigation .active a {
+    background-color: #AD974F;
+}
+
+nav ul li.primary a {
+    background-color: #CFCFCF;
+}
+
+.navigation a:hover{
+    background-color: #AD974F ;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.toggle-btn {
+    padding: 1em;
+}
+
+.social {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+/* ----------------------------------------------*/
+
+.responsive li {
+	display: block;
+}
+
+.responsive ul {
+    position: absolute;
+    width: 100%;
+}
+
+.responsive a {
+    background-color: #eaeaeab1;
+    padding-left: 3rem;
+}
+
+
+.responsive .active {
+    background-color: #AD974F;
+}
+/*---------------Main-------------------------------- */
+
+main {
+    display: grid;
+    grid-row-gap: 10px;
+    padding: 1em;
+    margin: auto 1rem;
+    font-size: 14px;
+    margin-bottom: 10px;
+    background-color: #ffff;
+}
+/* main h1 h2 h3 {
+    background-color: #AD974F;
+} */
+
+/*----------------------------*/
+.home-main {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    grid-gap: 1.5em;
+    text-align: center;
+}
+
+.home-about, .weather, .home-temples{
+    border: solid;
+}
+.home-main p{
+    max-width: 75%;
+    margin: auto;
+    padding: 1em;
+}
+div.banner{
+    display: grid;
+    grid: 1fr 1fr/ 1fr 1fr;
+}
+
+    /* z-index: -1; */
+
+
+picture.banner-picture{
+    grid-column: 1/3;
+    grid-row: 1/3;
+    object-fit: cover;
+}
+
+img.banner-picture{
+    min-width: 100%;
+    max-width: 100%;
+
+}
+
+.banner-btn{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-self: right;
+    align-self: end;
+    padding: 5px;
+    border-radius: 7px;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    font-size: 1.8em;
+}
+
+.about-img, .temple-img{
+    padding: 1em;
+}
+/* ------------------Weather-----------------------*/
+
+/* .weather{
+    border: solid;
+} */
+
+
+/* ----------------Footer-------------------------*/
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color:#ffff;
+    color: #231F20;
+    box-shadow: 0 5px 5px 0 rgba(114, 106, 106);
+}
+
+
+div.company-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 
+
+}
+
+div.company{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+div.company h2{
+    align-self: center;
+}
+
+
+div.location-1{
+    border: solid;
+}
+iframe{
+    width: 90%;
+    padding: 1em;
+}
+
+div.location-2{
+    align-self: center;
+}
+
+.company img{
+    align-self: center;
+    padding-left: 1.5em;
+
+}
+
+.logo-footer {
+    /* width: 30%; */
+    margin-bottom: -1em;
+}
+
+.contact-info a {
+    color: #AD974F;
+}
+
+div.contact-info{
+    padding: 0 1em 0 1em;
+}
+
+.contact-info a:hover {
+    color: #231F20;
+}
+
+
+/* ------------------------------------------------------ */
+@media only screen and (max-width: 34em){
+    footer hr {
+        display: none;
+    }
+
+    div.location-2{
+        display: none;
+    }
+    div.company-footer{
+        grid-template-columns: 1fr 1fr;
+    }
+
+}

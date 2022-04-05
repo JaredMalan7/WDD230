@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Temple Inn & Suites Website - Jared Malan">
+    <title>Temple Inn & Suites</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anaheim&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo-1.png" alt="" class="logo">
+        <div class="social">
+            <a href="https://facebook.com" target="_blank"><img src="images/facebook-logo.png" alt="Facebook logo" class="icon"></a>
+            <a href="https://instagram.com" target="_blank"><img src="images/insta-logo.png" alt="Insta logo" class="icon"></a>
+        </div>
+        <nav>
+            <button class="menu"><span id="hamburger" class="toggle-btn"> &#9776; </span><span id="xbutton" class="hidden toggle-btn">x</span></button>
+
+            <ul class="navigation">
+                <li class="active"><a href="#"> Home </a></li>
+                <li><a href="#"> Temple </a></li>
+                <li><a href="#"> Reservations </a></li>
+                <li><a href="#"> Services </a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="home-main">
+            <div class="banner">
+                <picture class="banner-picture">
+                    <source media= "(max-width: 540px)" srcset="images/temple-banner-small.jpg">
+                    <source media="(min-width: 1200px)" srcset="images/temple-banner-large.jpg">
+                    <source media="(min-width: 615px)" srcset="images/temple-banner-medium.jpg">
+                    <img src="images/temple-banner-large.jpg"
+                    class="banner-picture">
+            </picture>
+                <button type="button" class="banner-btn">Make a Reservation</button>
+            </div>
+
+            <div class="home-about">
+                <h2 class="about-us-headline1">About Us</h2>
+                    <img class="about-img" src="images/hotel1.jpg" alt="Hotel Image">
+                             
+                <p class="headline1">
+                    Temple Inn & Suites provides a very unique, family centered, and specialized service, not only for members of the Church during their temple trips, but also their families as well.</p>
+            </div>
+            <div class="weather">
+                <h3> Weather </h3>
+                <div class="weather-img">
+                    <img src="#" alt="weather-image">
+                    <div class="temp">
+                        <p><span id="temp">40</span>°F</p>
+                    </div>
+                </div>
+                <h4 id="weather-api">Few Clouds</h4>
+                <hr>
+                <p>Wind speed: <span id="speed">20</span> mph</p>
+                <p>Wind Chill: <span id="windchill"></span></p>
+            </div>
+            <div class="home-temples">
+                <h2 class="headline2">Temples</h2>
+                <img class="temple-img" src="images/san-diego-temple1.jpg" alt="temple image">
+                <p class="about-us-p2">
+                San Diego, California Temple, EEUU.</p>
+
+            </div>  
+            <div class="location-1">
+                <h2>Our Location</h2>
+                <iframe  width="200" height="150" style="border:0;" allowfullscreen src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3045.918396585319!2d-111.65936458460968!3d40.23311657938691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d9753acfb9965%3A0x7736f69e891a3ab7!2s100%20E%20Center%20St%2C%20Provo%2C%20UT%2084606!5e0!3m2!1sen!2sus!4v1647398092186!5m2!1sen!2sus" loading="lazy"></iframe>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="company-footer">
+            <div class="company">
+                <img src="images/logo-2.png" alt="logo footer" class="logo-footer">
+                
+                <div class="contact-info">
+                    <h2> Temple Inn & Suites </h2>
+                    <p> 2230 N University Pkwy, Provo, UT 84604 </p>
+                    <p> booking@templeinn.com </p>
+                    <p> (801) 888 9999</p>
+                </div>
+                <!-- <hr> -->
+            </div>
+            <div class="location-2">
+                <p class="contact-info"> <a href="https://www.google.com/maps/place/2230+N+University+Pkwy,+Provo,+UT+84604/@40.2631512,-111.6675858,17z/data=!3m1!4b1!4m5!3m4!1s0x874d909d507447d5:0x5fb0756aba79a30!8m2!3d40.2631512!4d-111.6653971" target="blank"> &Rarr; 📍  Location Map</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/menu.js"></script>
+</body>
+</html>

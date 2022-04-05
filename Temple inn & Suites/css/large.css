@@ -1,0 +1,88 @@
+@media only screen and (min-width: 51em) {
+	
+
+/* 
+	body{
+		max-width: 1200px;
+		margin: auto;
+	} */
+
+	header{
+        font-size: 1rem;
+		grid: 1fr / 1fr 2fr 1fr;
+		font-size: 20px;
+    }
+
+	nav {
+		grid-column: 2;
+		grid-row: 1/2;
+	}
+
+	.navigation a{
+		padding: .75rem 3vw;
+	}
+
+	.navigation {
+		display: flex;
+		position: relative;
+	}
+
+	.navigation li {
+		display: block;
+		flex: 1 1 auto;
+	}
+
+	.navigation a {
+		text-align: center;
+        border: none;
+	}
+
+	nav .menu{
+        display: none;
+    }
+
+	.social {
+		grid-column: 3;
+	}
+
+	/*------------main-----------*/
+
+	.home-main{
+		grid-template-columns: 10fr 1fr 10fr;
+	}
+	
+	div.weather{
+		grid-column:3/4;
+
+	}
+
+	div.home-temples{
+		margin: 1em 0 1em 0;
+    	grid-column: 1/2;
+    	grid-row: 2/3;
+	}
+
+	div.home-about{
+		margin: 1em 0 0 0;
+	}
+
+	div.location-1{
+		grid-row: 3;
+		grid-column: 3/4;
+		margin-top: 1em;
+	}
+
+	iframe{
+		height: 80%;
+	}
+	
+	/*----------Footer-----------*/
+
+	.top-footer hr{
+        display: none;
+    }
+
+	.logo-footer {
+        max-width: 100%;
+    }
+}

@@ -73,6 +73,7 @@ button {
     border: none;
     border-radius: 5px;
     font-size: 1.8em;
+    max-width: 75px;
 }
 button:hover {
     cursor: pointer;
