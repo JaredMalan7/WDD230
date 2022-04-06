@@ -38,11 +38,17 @@ async function getTemples() {
         const templeNameSpan = document.createElement('span')
         const templeServicesList = document.createElement('ul');
         
-        temple.services.forEach(service => {
+        if(Array.isArray(temple.services)) {
+            temple.services.forEach(service => {
+                const serviceElement = document.createElement('p')
+                serviceElement.textContent = service
+                templeServicesList.appendChild(serviceElement)
+            })
+        } else {
             const serviceElement = document.createElement('p')
-            serviceElement.textContent = service
+            serviceElement.textContent = temple.services
             templeServicesList.appendChild(serviceElement)
-        })
+        }
 
         // li children attributes
         templeImage.src = temple.image

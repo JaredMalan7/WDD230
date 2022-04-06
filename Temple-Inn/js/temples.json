@@ -9,8 +9,7 @@
         "ordinances":   "By appointment only.",
         "sessions": "By appointment only.",
         "closures": ["Saturday, 2 April 2022","Monday, 9 May 2022 - Monday, 23 May 2022","Saturday, 1 October 2022","Monday, 7 November 2022 - Tuesday, 22 November 2022","Wednesday, 23 November 2022 - Thursday, 24 November 2022","Saturday, 24 December 2022","Saturday, 31 December 2022"],
-        "history":  ["3 October 1992 - Announced","9 October 1993 - Groundbreaking","13 October 1996 - Dedicated"],
-        "spotlight": "Featured"
+        "history":  ["3 October 1992 - Announced","9 October 1993 - Groundbreaking","13 October 1996 - Dedicated"]
 
     },
     {
@@ -22,8 +21,7 @@
         "ordinances":   "By appointment only.",
         "sessions": "By appointment only.",
         "closures": ["Friday, 30 September 2022 (Limited Operations)","Saturday, 1 October 2022","Thursday, 24 November 2022","Friday, 23 December 2022 (Limited Operations)","Saturday, 24 December 2022 - Monday, 26 December 2022","Sunday, 1 January 2023"],
-        "history":  "",
-        "spotlight": "Featured"
+        "history":  ""
     },
     {
         "name":     "Las Vegas, Nevada, Temple",
@@ -34,8 +32,7 @@
         "ordinances":   "By appointment only.",
         "sessions": "",
         "closures": "",
-        "history":  "",
-        "spotlight": "Featured"
+        "history":  ""
 
     },
     {
@@ -47,8 +44,7 @@
         "ordinances":   "By appointment only.",
         "sessions": "By appointment only.",
         "closures": "",
-        "history":  "",
-        "spotlight": "Featured"
+        "history":  ""
     },
     {
         "name":     "Payson, Utah, Temple",
@@ -59,8 +55,7 @@
         "ordinances":   "By appointment only.",
         "sessions": "By appointment only.",
         "closures": "",
-        "history":  "",
-        "spotlight": "Featured"
+        "history":  ""
     },
     {
         "name":     "Rome, Italy, Temple",
@@ -71,8 +66,7 @@
         "ordinances":   "By appointment only.",
         "sessions": "By appointment only.",
         "closures": "",
-        "history":  "",
-        "spotlight": "Featured"
+        "history":  ""
     }
     
 ]
