@@ -235,6 +235,7 @@ ul.temple-list{
     display: grid;
     padding-left: 0;
     grid: 1fr;
+    grid-gap: 1em;
 }
 
 .template-list ul{
@@ -246,6 +247,10 @@ li.temples-list-element{
     display: grid;
     margin-bottom: 2em;
     border: solid;
+}
+
+.temples-list-element ul{
+    padding: 0;
 }
 
 div.directory{
