@@ -1,28 +1,65 @@
-// const jasonData= "./js/temples.json"
+// temples": [
+//     {
+//         "name":     "Mount Timpanogos, Utah, Temple",
+//         "address":  "742 N 900 E, American Fork, UT 84003",
+//         "image":    "./temples/timpanogos-temple.webp",
+//         "phone":    "+1 (801) 763-4540",    
+//         "services": ["Clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
+//         "ordinances":   "By appointment only.",
+//         "sessions": "By appointment only.",
+//         "closures": ["Saturday, 2 April 2022","Monday, 9 May 2022 - Monday, 23 May 2022","Saturday, 1 October 2022","Monday, 7 November 2022 - Tuesday, 22 November 2022","Wednesday, 23 November 2022 - Thursday, 24 November 2022","Saturday, 24 December 2022","Saturday, 31 December 2022"],
+//         "history":  ["3 October 1992 - Announced","9 October 1993 - Groundbreaking","13 October 1996 - Dedicated"],
+//         "spotlight": "Featured"
 
-// fetch(jasonData)
-//     .then(function (response) {
-//         return response.json();
-//     })
-//     .then(function (jsonObject){
-//         const temples = jsonObject['temples'];
-//     //    temple.forEach(displayTemples)
-//         const filteredTemples = temples.filter((temple) => {
-//             return temple.spotlight == "Featured";
-//         });
+//https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/async_function
 
-//         let firstTemple = Math.floor(Math.random()*filteredTemples.lenght);
-//         let firstTemple = filteredTemples[i];
 
-//         let firstSpotlight = document.getElementById('.home-temples');
+const requestURL = "./js/temples.json"
+const temples = document.querySelector('.temple-list');
 
-//         let firstImage = document.createElement('img');
-//         firstImage.src = firstTemple.image;
-//         firstImage.setAttribute('alt', firstTemple.name);
-//         firstSpotlight.appendChild(firstImage);
+async function getTemples() {
+    console.log('calling');
+    const response = await fetch(requestURL);
+    const templesjson = await response.json()
+    return templesjson
+  }
 
-//         let firstName = document.createElement('p');
-//         firstName.src = firstName.name;
-//         firstName.appendChild(firstName);
+  const displayTemples = async() => {
+    const templeslist =  await getTemples()
+    console.log('templelist', templeslist)
+
+    templeslist.temples.forEach(temple => {
+        // li tag
+        const templeListElement = document.createElement('li');
+        templeListElement.className = 'temples-list-element'
         
-//     });
+        // li children
+        const templeImage = document.createElement('img');
+        const templeNameSpan = document.createElement('span')
+        const templeServicesList = document.createElement('ul');
+        
+        temple.services.forEach(service => {
+            const serviceElement = document.createElement('p')
+            serviceElement.textContent = service
+            templeServicesList.appendChild(serviceElement)
+        })
+
+        // li children attributes
+        templeImage.src = temple.image
+        templeImage.className = 'temple-image'
+        templeNameSpan.textContent = temple.name
+
+        // li append all children
+        templeListElement.appendChild(templeImage)
+        templeListElement.appendChild(templeNameSpan)
+        templeListElement.appendChild(templeServicesList);
+        // address
+        //phone
+
+
+        // li append to ul
+        temples.appendChild(templeListElement)
+    });    
+}
+
+displayTemples() 
