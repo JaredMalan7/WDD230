@@ -6,7 +6,7 @@ fetch(jasonData)
     })
     .then(function (jsonObject){
         const temples = jsonObject['temples'];
-    //    forEach.temple in temples(displayTemples)
+    //    temple.forEach(displayTemples)
         const filteredTemples = temples.filter((temple) => {
             return temple.spotlight == "Featured";
         });
