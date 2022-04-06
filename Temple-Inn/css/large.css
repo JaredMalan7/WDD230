@@ -80,7 +80,7 @@
 		height: 80%;
 	}
 
-	/*--------servcies-----------*/
+	/*--------services-----------*/
 
 	img.catering-img{
 		grid-column: 2;
@@ -95,6 +95,15 @@
 	img.shuttle-img{
 		grid-column: 2;
 	}
+
+	/*---------temple-directory---*/
+
+
+	ul.temple-list{
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+
 	
 	/*----------Footer-----------*/
 	footer{

@@ -114,6 +114,7 @@ nav ul li.primary a {
     grid-gap: 1rem;
 }
 
+
 /* ----------------------------------------------*/
 
 .responsive li {
@@ -145,9 +146,6 @@ main {
     margin-bottom: 10px;
     background-color: #ffff;
 }
-/* main h1 h2 h3 {
-    background-color: #AD974F;
-} */
 
 /*----------------------------*/
 .home-main {
@@ -197,8 +195,67 @@ img.banner-picture{
     font-size: 1.8em;
 }
 
+/* -----------------Spotlight-Temples--------------------------*/
+
+div.spotlight{
+    display: grid;
+}
+
+img.temple-image{
+    grid-row: 2;
+    max-width: 80%;
+    padding: .5em;
+    min-width: 90%;
+    margin-top: 1em;
+}
+
+span.temple-name{
+    font-size: 17px;
+    padding: 1em;
+}
+
 .about-img, .temple-img{
     padding: 1em;
+}
+
+img.about-img{
+    max-width: 90%;
+}
+
+
+
+/* -----------------Temples-Directory-----------------------*/
+
+main.temple-directory{
+    display: grid;
+    grid-template-rows: 1fr;
+}
+ul.temple-list{
+    list-style: none;
+    display: grid;
+    padding-left: 0;
+    grid: 1fr;
+}
+
+.template-list ul{
+    text-align: center;
+}
+
+
+li.temples-list-element{
+    display: grid;
+    margin-bottom: 2em;
+    border: solid;
+}
+
+div.directory{
+    text-align: center;
+}
+
+div.directory span{
+    font-size: 20px;
+    padding: 1em;
+    background-color: #AD974F;
 }
 /*-----------Main-Services-----------------------*/
 
@@ -207,9 +264,6 @@ div.services-grid{
     margin-top: 2em;
 }
 
-p.headline1{
-    margin: 2em;
-}
 
 .service{
     margin: 1em;

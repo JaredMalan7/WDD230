@@ -21,52 +21,52 @@
         "ordinances":   "By appointment only.",
         "sessions": "By appointment only.",
         "closures": ["Friday, 30 September 2022 (Limited Operations)","Saturday, 1 October 2022","Thursday, 24 November 2022","Friday, 23 December 2022 (Limited Operations)","Saturday, 24 December 2022 - Monday, 26 December 2022","Sunday, 1 January 2023"],
-        "history":  ""
+        "history": ["3 October 1915 - Announced","8 February 1916 - Groundbreaking", "27 November 1919 - Dedicated", "13 June 1978 - Rededicated", "21 November 2010 - Rededicated"]
     },
     {
         "name":     "Las Vegas, Nevada, Temple",
         "address":  "827 Temple View Dr, Las Vegas, NV 89110",
         "image":    "./temples/las-vegas-temple.webp",
-        "phone":    "",    
-        "services": "By appointment only.",
+        "phone":    "+1 (702) 452-5011",    
+        "services": ["Clothing rental available","No cafeteria available", "No patron housing available", "Distribution center nearby"],
         "ordinances":   "By appointment only.",
-        "sessions": "",
-        "closures": "",
-        "history":  ""
+        "sessions": "By appointment only.",
+        "closures": ["Monday, 11 July 2022 - Monday, 25 July 2022", "Saturday, 1 October 2022", "Wednesday, 23 November 2022 - Thursday, 24 November 2022", "Saturday, 24 Dember 2022"],
+        "history":  ["7 April 1984 - Announced", "November 1985 - Groundbreakding", "16 December 1989 - Dedicated"]
 
     },
     {
         "name":     "Palmyra, New York, Temple",
         "address":  "2720 Temple Rd, Palmyra, NY 14522",
         "image":    "./temples/palmyra-new-york-temple.webp",
-        "phone":    "",    
-        "services": "",
+        "phone":    "+1 (315) 597-6001",    
+        "services": ["No clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
         "ordinances":   "By appointment only.",
         "sessions": "By appointment only.",
-        "closures": "",
-        "history":  ""
+        "closures": ["Monday, 4 July 2022", "Monday, 12 September 2022 - Monday, 26 September 2022", "Saturday, 1 October 2022", "Thursday, 24 November 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022"],
+        "history":  ["21 February 1999 - Announced", "25 May 1999 - Groundbreaking", "6 April 2000 - Dedicated"]
     },
     {
         "name":     "Payson, Utah, Temple",
         "address":  "1494 S 930 W St, Payson, UT 84651",
         "image":    "./temples/payson-utah-temple.webp",
-        "phone":    "",    
-        "services": "",
+        "phone":    "+1 (801) 754-4949",    
+        "services": ["Clothing rental available","No cafeteria available", "No patron housing available", "Distribution center nearby"],
         "ordinances":   "By appointment only.",
         "sessions": "By appointment only.",
-        "closures": "",
-        "history":  ""
+        "closures": ["Monday, 4 April 2022 - Monday, 11 April 2022","Saturday, 1 October 2022","Monday, 10 October 2022 - Monday, 17 October 2022","Wednesday, 23 November 2022 (Limited Operations)", "Thursday, 24 November 2022", "Friday, 23 December 2022 (Limited Operations)", "Saturday, 24 December 2022", "Saturday, 31 December 2022 (Limited Operations)"],
+        "history":  ["25 January 2010 - Announced","8 October 2011 - Groundbreaking", "7 June 2015 - Dedicated"]
     },
     {
         "name":     "Rome, Italy, Temple",
         "address":  "Via di Settebagni, 354/380, 00139 Roma RM, Italy",
         "image":    "./temples/rome-temple.webp",
-        "phone":    "",    
-        "services": "",
+        "phone":    "+39 06-9480-5050",    
+        "services": ["Clothing rental available","No cafeteria available", "No patron housing available", "Distribution center nearby"],
         "ordinances":   "By appointment only.",
         "sessions": "By appointment only.",
-        "closures": "",
-        "history":  ""
+        "closures": ["Monday, 28 February 2022 - Monday, 9 May 2022", "Wednesday, 29 June 2022", "Monday, 19 September 2022 - Monday, 3 October 2022", "Saturday, 24 December 2022 - Monday, 26 December 2022", "Saturday, 31 December 2022 - Sunday, 1 January 2023"],
+        "history":  ["4 October 2008 - Announced", "23 October 2010 - Groundbreaking", "10 March 2019 - Dedicated"]
     }
     
 ]

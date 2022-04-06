@@ -35,7 +35,17 @@
     
     div.services-grid, img{
         grid-column: 1;
+        /* min-width: 90%; */
     }
+
+
+    /*---------temple-directory--------*/
+
+
+
+    ul.temple-list{
+		grid-template-columns: 1fr 1fr;
+	}
 
 
     /*--------footer----------*/

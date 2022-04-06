@@ -18,30 +18,31 @@ async function getTemple() {
 
     // spotlight children
     const templeImage = document.createElement('img');
-    const templeNameSpan = document.createElement('span')
-    const templeServicesList = document.createElement('ul');
+    const templeNameSpan = document.createElement('span');
+    // const templeServicesList = document.createElement('ul');
     
-    if(Array.isArray(templeData.services)) {
-        templeData.services.forEach(service => {
-            const serviceElement = document.createElement('p')
-            serviceElement.textContent = service
-            templeServicesList.appendChild(serviceElement)
-        })
-    } else {
-        const serviceElement = document.createElement('p')
-        serviceElement.textContent = templeData.services
-        templeServicesList.appendChild(serviceElement)
-    }
+    // if(Array.isArray(templeData.services)) {
+    //     templeData.services.forEach(service => {
+    //         const serviceElement = document.createElement('p')
+    //         serviceElement.textContent = service
+    //         templeServicesList.appendChild(serviceElement)
+    //     })
+    // } else {
+    //     const serviceElement = document.createElement('p')
+    //     serviceElement.textContent = templeData.services
+    //     templeServicesList.appendChild(serviceElement)
+    // }
 
     // li children attributes
     templeImage.src = templeData.image
     templeImage.className = 'temple-image'
+    templeNameSpan.className = 'temple-name'
     templeNameSpan.textContent = templeData.name
 
     // li append all children
     templeDOMElement.appendChild(templeImage)
     templeDOMElement.appendChild(templeNameSpan)
-    templeDOMElement.appendChild(templeServicesList);
+    // templeDOMElement.appendChild(templeServicesList);
   }
 
 displayTemple()
