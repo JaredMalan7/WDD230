@@ -1,76 +1,79 @@
 {
 "temples": [
     {
-        "name":     "San Diego, California, Temple",
-        "address":  "7474 Charmant Dr, San Diego, CA 92122",
-        "image":    "./temples/san-diego-temple.webp",
-        "spotlight": "Featured"
-    },
-    {
         "name":     "Mount Timpanogos, Utah, Temple",
         "address":  "742 N 900 E, American Fork, UT 84003",
         "image":    "./temples/timpanogos-temple.webp",
+        "phone":    "+1 (801) 763-4540",    
+        "services": ["Clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
+        "ordinances":   "By appointment only.",
+        "sessions": "By appointment only.",
+        "closures": ["Saturday, 2 April 2022","Monday, 9 May 2022 - Monday, 23 May 2022","Saturday, 1 October 2022","Monday, 7 November 2022 - Tuesday, 22 November 2022","Wednesday, 23 November 2022 - Thursday, 24 November 2022","Saturday, 24 December 2022","Saturday, 31 December 2022"],
+        "history":  ["3 October 1992 - Announced","9 October 1993 - Groundbreaking","13 October 1996 - Dedicated"],
         "spotlight": "Featured"
-    },
-    {
-        "name":     "Caracas, Venezuela, Temple",
-        "address":  "F5C7+83Q, Caracas 1061, Miranda, Venezuela",
-        "image":    "./temples/caracas-venezuela.webp",
-        "spotlight": "Featured"
+
     },
     {
         "name":     "Laie, Hawaii, Temple",
         "address":  "55-1109 Naniloa Loop, Laie, HI 96762",
         "image":    "./temples/laie-temple.webp",
+        "phone":    "+1 (808) 293-2427",    
+        "services": ["Clothing rental available","No cafeteria available", "No patron housing available", "Distribution center nearby"],
+        "ordinances":   "By appointment only.",
+        "sessions": "By appointment only.",
+        "closures": ["Friday, 30 September 2022 (Limited Operations)","Saturday, 1 October 2022","Thursday, 24 November 2022","Friday, 23 December 2022 (Limited Operations)","Saturday, 24 December 2022 - Monday, 26 December 2022","Sunday, 1 January 2023"],
+        "history":  "",
         "spotlight": "Featured"
     },
     {
         "name":     "Las Vegas, Nevada, Temple",
         "address":  "827 Temple View Dr, Las Vegas, NV 89110",
         "image":    "./temples/las-vegas-temple.webp",
+        "phone":    "",    
+        "services": "By appointment only.",
+        "ordinances":   "By appointment only.",
+        "sessions": "",
+        "closures": "",
+        "history":  "",
         "spotlight": "Featured"
-    },
-    {
-        "name":     "London, England, Temple",
-        "address":  "W Park Rd, Newchapel, Lingfield RH7 6HW, UK",
-        "image":    "./temples/london-england-temple.webp",
-        "spotlight": "Featured"
-    },
-    {
-        "name":     "Madrid, Spain, Temple",
-        "address":  "C. Templo, 2, 28030 Madrid, Spain",
-        "image":    "./temples/madrid-spain-temple.webp",
-        "spotlight": "Featured"
+
     },
     {
         "name":     "Palmyra, New York, Temple",
         "address":  "2720 Temple Rd, Palmyra, NY 14522",
         "image":    "./temples/palmyra-new-york-temple.webp",
-        "spotlight": "Featured"
-    },
-    {
-        "name":     "Paris, France, Temple",
-        "address":  "46 Boulevard Saint Antoine, 78150 Le Chesnay, France",
-        "image":    "./temples/paris-france-temple.webp",
+        "phone":    "",    
+        "services": "",
+        "ordinances":   "By appointment only.",
+        "sessions": "By appointment only.",
+        "closures": "",
+        "history":  "",
         "spotlight": "Featured"
     },
     {
         "name":     "Payson, Utah, Temple",
         "address":  "1494 S 930 W St, Payson, UT 84651",
         "image":    "./temples/payson-utah-temple.webp",
+        "phone":    "",    
+        "services": "",
+        "ordinances":   "By appointment only.",
+        "sessions": "By appointment only.",
+        "closures": "",
+        "history":  "",
         "spotlight": "Featured"
     },
     {
         "name":     "Rome, Italy, Temple",
         "address":  "Via di Settebagni, 354/380, 00139 Roma RM, Italy",
         "image":    "./temples/rome-temple.webp",
-        "spotlight": "Featured"
-    },
-    {
-        "name":     "Salt Lake City, Temple, Temple",
-        "address":  "50 N W Temple St, Salt Lake City, UT 84150",
-        "image":    "./temples/slc-temple7.webp",
+        "phone":    "",    
+        "services": "",
+        "ordinances":   "By appointment only.",
+        "sessions": "By appointment only.",
+        "closures": "",
+        "history":  "",
         "spotlight": "Featured"
     }
+    
 ]
 }
