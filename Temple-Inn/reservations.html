@@ -35,35 +35,53 @@
     </header>
     <main>
         <h2> Contact Us </h2>
-            <form method="get" action="thankyou.html">
-                <fieldset>
-                    <legend>Get in touch</legend>
-                    <label class="top">First Name*<input type="text" name="fname" placeholder="Russell" required></label>
-                    <label class="top">Last Name*<input type="text" name="lname" placeholder="Nelson" required></label>
-                    <label class="top">Email*<input type="email" name="email" placeholder="rusellnelson@gmail.com" required></label>
-                    <label class="top">Phone*<input type="tel" name="phone" placeholder="(801) 888 8888" required></label>
-                    <label class="top">Send Us a Message<br><textarea rows="3" name="bus-description"></textarea></label>
-                </fieldset>
-                <p class="button-submit">
-                    <label><input type="hidden" id="submitdate" name="submitdate" value=""></label>
-                    <input type="submit" class="submitbutton" value="Conact Us">
-                    </p>
-            </form>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>General Information</legend>
+                <label class="top">First Name*<input type="text" name="first name" placeholder="Russell" required></label>
+                <label class="top">Last Name*<input type="text" name="last name" placeholder="Nelson" required></label>
+                <label class="top">Email*<input type="email" name="email" placeholder="rusellnelson@gmail.com" required></label>
+                <label class="top">Phone*<input type="tel" name="phone" placeholder="(801) 888-8888" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Business Information</legend>
+                <label class="top">Business name<input type="text" name="business-name"  title="business name"></label>
+                <label class="top">Position<input type="text" name="position" title="position" pattern="[A-Za-z\s-]{7,}" required></label>
+                <label class="top">Description <br><textarea rows="3" name="bus-description"></textarea></label>
+            </fieldset>
+            <fieldset>
+                <legend>Membership Package</legend>
+                <h3>Non-profit</h3>
+                <p>
+                    The Non-profit Membership is for non profit organizations and there is no fee.
+                </p>
+                <h3>Membership</h3>
+                <p>
+                    With the Bronze Membership you will get Access to our Company's directory, and you will also get featured on our website to help you grow faster by helping you connect with more businesses and costumers.
+                </p>
+                <h3>Silver Membership</h3>
+                <p>
+                    With the Silver Membership you will not only get featured on our website, but you will also get access to many local business events, and radio and television advertisement.
+                </p>
+                <h3>Membership</h3>
+                <p>
+                    With the Gold Membership you will have acces to all of our services from the lower level memberships, and you will also have access to all of our media marketing services which include, Social Media sponoreds ads, YouTube ads, Google and Facebook reviews, and my other tools that will help you grow your business much faster.
+                </p>
+                <label for="membership">Memberships:</label>
+                    <select name="membership" id="membership">
+                        <option value=""> Select Memebership Level</option>
+                        <option value="0">Non-profit</option>
+                        <option value="1">Bronze Membership $500. </option>
+                        <option value="2">Silver Membership $1,000.</option>
+                        <option value="3">Gold Membership $2,000. </option>
+                    </select>
+            </fieldset>
+            <p class="button-submit">
+            <input type="hidden" id="submitdate" name="submitdate" value="">
+            <input type="submit" class="submitbutton" value="Join the Chamber">
+            </p>
+        </form>
             
-            <div class="information">
-                <div class="contact-i">
-                    <h3>Contact Info</h3>
-                    <h4>Temple Inn & Suites</h4>
-                    <p>100 E Center St<br>Provo, Utah 84604
-                    <br>(801) 888 9999
-                    <br>booking@templeinn.com
-                    </p>
-                </div>
-                <div class="contact-map">
-                    <iframe  width="400" height="300" style="border:0;" allowfullscreen src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3045.918396585319!2d-111.65936458460968!3d40.23311657938691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d9753acfb9965%3A0x7736f69e891a3ab7!2s100%20E%20Center%20St%2C%20Provo%2C%20UT%2084606!5e0!3m2!1sen!2sus!4v1647398092186!5m2!1sen!2sus" loading="lazy"></iframe>
-                </div>
-            </div>
-
     </main>
     <footer>
         <div class="company-footer">
