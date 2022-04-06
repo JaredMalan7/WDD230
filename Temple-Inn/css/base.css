@@ -50,6 +50,9 @@ button:hover {
     background-color: #231F20;
 }
 
+button.menu{
+    margin-right: 0.75rem;
+}
 nav {
 	margin: 0 auto;
 	max-width: 760px;
@@ -222,6 +225,7 @@ div.company-footer{
 div.company{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
 }
 div.company h2{
     align-self: center;
@@ -242,8 +246,7 @@ div.location-2{
 
 .company img{
     align-self: center;
-    padding-left: 1.5em;
-
+    max-width: 150px;
 }
 
 .logo-footer {
