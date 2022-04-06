@@ -218,7 +218,7 @@ div.footer-2{
 
 div.company-footer{
     display: grid;
-    grid-template-columns: 1fr 1fr 
+    /* grid-template-columns: 1fr 1fr  */
 
 }
 
@@ -254,6 +254,10 @@ div.location-2{
     margin-bottom: -1em;
 }
 
+img.logo-footer{
+    margin: auto;
+}
+
 .contact-info a {
     color: #AD974F;
 }
@@ -276,8 +280,8 @@ div.contact-info{
     div.location-2{
         display: none;
     }
-    div.company-footer{
+    /* div.company-footer{
         grid-template-columns: 1fr 1fr;
-    }
+    } */
 
 }
