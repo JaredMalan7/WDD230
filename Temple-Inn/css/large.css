@@ -79,6 +79,22 @@
 	iframe{
 		height: 80%;
 	}
+
+	/*--------servcies-----------*/
+
+	img.catering-img{
+		grid-column: 2;
+
+	}
+	img.services-grid, img{
+		grid-row: 1;
+	}
+	img.breakfast-img{
+		grid-column: 2;
+	}
+	img.shuttle-img{
+		grid-column: 2;
+	}
 	
 	/*----------Footer-----------*/
 	footer{

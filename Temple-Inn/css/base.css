@@ -42,7 +42,7 @@ button {
     background-color: #AD974F;
     color: white;
     border: none;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     font-size: 1.8em;
 }
 button:hover {
@@ -186,7 +186,7 @@ img.banner-picture{
     justify-self: right;
     align-self: end;
     padding: 5px;
-    border-radius: 7px;
+    /* border-radius: 7px; */
     margin-bottom: 1em;
     margin-right: 1em;
     font-size: 1.8em;
@@ -195,6 +195,35 @@ img.banner-picture{
 .about-img, .temple-img{
     padding: 1em;
 }
+/*-----------Main-Services-----------------------*/
+
+div.services-grid{
+    display: grid;
+    margin-top: 2em;
+}
+
+p.headline1{
+    margin: 2em;
+}
+
+.service{
+    margin: 1em;
+}
+
+div.services-grid, img{
+    margin: auto;
+    text-align: center;
+}
+
+div.services-grid, p{
+    align-self: center;
+
+}
+div.services-grid h2{
+    background-color: #AD974F;
+    padding: .5em;
+}
+
 /* ------------------Weather-----------------------*/
 
 /* .weather{

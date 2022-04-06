@@ -25,6 +25,20 @@
         /* grid-row:1/2; */
     }
 
+    /*---------main-services--------*/
+
+
+    div.service{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    div.services-grid, img{
+        grid-column: 1;
+    }
+
+
+    /*--------footer----------*/
 
     div.company-footer{
         display: grid;
