@@ -50,8 +50,13 @@ button:hover {
     background-color: #231F20;
 }
 
+span.close-btn{
+    padding: 0 .25em;
+}
+
 button.menu{
     margin-right: 0.75rem;
+    padding: .25em .5em;
 }
 nav {
 	margin: 0 auto;
