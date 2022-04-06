@@ -7,7 +7,7 @@ async function getTemple() {
     // https://www.w3schools.com/react/react_es6_destructuring.asp
     const { temples } = await response.json()
 
-    const templeIndex = Math.floor(Math.random() * (temples.length + 1))
+    const templeIndex = Math.floor(Math.random() * (temples.length))
     console.log('templeIndex: ', templeIndex)
     return temples[templeIndex]
   }
