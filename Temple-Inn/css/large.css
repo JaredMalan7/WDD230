@@ -46,6 +46,10 @@
 	}
 
 	/*------------main-----------*/
+	main{
+		max-width: 1200px;
+		margin: auto;
+	}
 
 	.home-main{
 		grid-template-columns: 10fr 1fr 10fr;
@@ -77,10 +81,9 @@
 	}
 	
 	/*----------Footer-----------*/
-
-	.top-footer hr{
-        display: none;
-    }
+	footer{
+		margin-top: 2em;
+	}
 
 	.logo-footer {
         max-width: 100%;

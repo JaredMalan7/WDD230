@@ -1,0 +1,76 @@
+{
+"temples": [
+    {
+        "name":     "San Diego, California, Temple",
+        "address":  "7474 Charmant Dr, San Diego, CA 92122",
+        "image":    "./temples/san-diego-temple.webp",
+        "membership": "Gold"
+    },
+    {
+        "name":     "Mount Timpanogos, Utah, Temple",
+        "address":  "742 N 900 E, American Fork, UT 84003",
+        "image":    "./temples/.webp",
+        "membership": "Gold"
+    },
+    {
+        "name":     "Caracas, Venezuela, Temple",
+        "address":  "F5C7+83Q, Caracas 1061, Miranda, Venezuela",
+        "image":    "./temples/.webp",
+        "membership": "Gold"
+    },
+    {
+        "name":     "Laie, Hawaii, Temple",
+        "address":  "55-1109 Naniloa Loop, Laie, HI 96762",
+        "image":    "./temples/.webp",
+        "membership": "Gold"
+    },
+    {
+        "name":     "Las Vegas, Nevada, Temple",
+        "address":  "827 Temple View Dr, Las Vegas, NV 89110",
+        "image":    "./temples/.webp",
+        "membership": "Gold"
+    },
+    {
+        "name":     "London, England, Temple",
+        "address":  "W Park Rd, Newchapel, Lingfield RH7 6HW, UK",
+        "image":    "./temples/.webp",
+        "membership": "Gold"
+    },
+    {
+        "name":     "Madrid, Spain, Temple",
+        "address":  "C. Templo, 2, 28030 Madrid, Spain",
+        "image":    "./temples/.webp",
+        "membership": "Gold"
+    },
+    {
+        "name":     "Palmyra, New York, Temple",
+        "address":  "2720 Temple Rd, Palmyra, NY 14522",
+        "image":    "./temples/.webp",
+        "membership": "Gold"
+    },
+    {
+        "name":     "Paris, France, Temple",
+        "address":  "46 Boulevard Saint Antoine, 78150 Le Chesnay, France",
+        "image":    "./temples/.webp",
+        "membership": "Gold"
+    },
+    {
+        "name":     "Payson, Utah, Temple",
+        "address":  "1494 S 930 W St, Payson, UT 84651",
+        "image":    "./temples/.webp",
+        "membership": "Gold"
+    },
+    {
+        "name":     "Rome, Italy, Temple",
+        "address":  "Via di Settebagni, 354/380, 00139 Roma RM, Italy",
+        "image":    "./temples/.webp",
+        "membership": "Gold"
+    },
+    {
+        "name":     "Salt Lake City, Temple, Temple",
+        "address":  "50 N W Temple St, Salt Lake City, UT 84150",
+        "image":    "./temples/.webp",
+        "membership": "Gold"
+    }
+]
+}
