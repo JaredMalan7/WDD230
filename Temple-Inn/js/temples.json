@@ -60,7 +60,7 @@
     {
         "name":     "Rome, Italy, Temple",
         "address":  "Via di Settebagni, 354/380, 00139 Roma RM, Italy",
-        "image":    "./temples/rome-temple.webp",
+        "image":    "./temples/rome-temple.png",
         "phone":    "+39 06-9480-5050",    
         "services": ["Clothing rental available","No cafeteria available", "No patron housing available", "Distribution center nearby"],
         "ordinances":   "By appointment only.",
