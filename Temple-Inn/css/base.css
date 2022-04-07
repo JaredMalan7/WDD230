@@ -247,7 +247,17 @@ li.temples-list-element{
     display: grid;
     margin-bottom: 2em;
     border: solid;
+    padding: 1em;
 }
+
+
+.temples-list-element li{
+    padding: .5em;
+    font-size: 18px;
+
+}
+
+
 
 .temples-list-element ul{
     padding: 0;
