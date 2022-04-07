@@ -34,37 +34,40 @@
     </header>
     <main class="booking">
         <h2> Book Your Stay</h2>
-        <form method="get" action="thankyou.html">
-            <fieldset>
-                <legend>General Information</legend>
-                <label class="info">First Name*<input type="text" name="first name" placeholder="Russell" required></label>
-                <label class="info">Last Name*<input type="text" name="last name" placeholder="Nelson" required></label>
-                <label class="info">Email*<input type="email" name="email" placeholder="rusellnelson@gmail.com" required></label>
-                <label class="info">Phone*<input type="tel" name="phone" placeholder="(801) 888-8888" required></label>
-                </label>
-            </fieldset>
-            <fieldset>
-                <legend>Trip Information</legend>
-                <label class="info">Location<select class="temple-location">
-                    <option value="N/A">Select Location</option>
-                    <option value="N/A">Italy</option>
-                    <option value="NY">New York</option>
-                    <option value="UT">Alaska</option>
-                    <option value=HI">Hawaii</option>
-                    <option value="NV">Las Vegas</option>
-                    <label class="info">Date<input type="date" name="date" title="Date" required></label>
-                    <label class="info">Number of Rooms<input type="number" name="room" title="Rooms" required></label>
-                    <label class="info">Type of Rooms<input type="text" name="rooms" title="Type of Rooms" required></label>
-                    <label class="info">Special Accomodations/Comments <br><textarea rows="5" name="comments" title="Special/Comments"></textarea></label>
-                    </select>
-                </label>
-            </fieldset>
-            <p class="button-submit">
-            <input type="hidden" id="submitdate" name="submitdate" value="">
-            <input type="submit" class="submitbutton" value="Join the Chamber">
-            </p>
-        </form>
-            
+        <div class="booking-grid">
+            <form method="get" action="thankyou.html">
+                <fieldset class="personal-info">
+                    <legend>General Information</legend>
+                    <label class="info">First Name*<input type="text" name="first name" placeholder="Russell" required></label>
+                    <label class="info">Last Name*<input type="text" name="last name" placeholder="Nelson" required></label>
+                    <label class="info">Email*<input type="email" name="email" placeholder="rusellnelson@gmail.com" required></label>
+                    <label class="info">Phone*<input type="tel" name="phone" placeholder="(801) 888-8888" required></label>
+                    </label>
+                </fieldset>
+                <fieldset class="trip-info">
+                    <legend>Trip Information</legend>
+                    <label class="info">Location<select class="temple-location">
+                        <option value="N/A">Select Location</option>
+                        <option value="N/A">Italy</option>
+                        <option value="NY">New York</option>
+                        <option value="UT">Alaska</option>
+                        <option value=HI">Hawaii</option>
+                        <option value="NV">Las Vegas</option>
+                        <label class="info">Date<input type="date" name="date" title="Date" required></label>
+                        <label class="info">Number of Rooms<input type="number" name="room" title="Rooms" required></label>
+                        <label class="info">Type of Rooms<input type="text" name="rooms" title="Type of Rooms" required></label>
+                        <label class="info">Special Accomodations/Comments <br><textarea rows="5" name="comments" title="Special/Comments"></textarea></label>
+                        </select>
+                    </label>
+                </fieldset>
+                <p class="button-submit">
+                <input type="hidden" id="submitdate" name="submitdate" value="">
+                <input type="submit" class="submitbutton" value="Join the Chamber">
+                </p>
+            </form>
+
+            <img class="reservations-img" src="images/room.png" alt="reception">
+        </div>    
     </main>
     <footer>
         <div class="company-footer">

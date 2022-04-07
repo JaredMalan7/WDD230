@@ -272,6 +272,15 @@ div.directory span{
     padding: 1em;
     background-color: #AD974F;
 }
+
+.booking-grid{
+    display: grid;
+    grid-gap: 1em;
+}
+
+.reservations-img{
+    max-width: 90%;
+}
 /*-----------Main-Services-----------------------*/
 
 div.services-grid{
@@ -296,6 +305,11 @@ div.services-grid, p{
 div.services-grid h2{
     background-color: #AD974F;
     padding: .5em;
+}
+
+
+.trip-info{
+    margin-top: 2em;
 }
 
 /* ------------------Weather-----------------------*/
@@ -365,9 +379,9 @@ img.logo-footer{
     color: #AD974F;
 }
 
-div.contact-info{
+/* div.contact-info{
     padding: 0 1em 0 1em;
-}
+} */
 
 .contact-info a:hover {
     color: #231F20;
