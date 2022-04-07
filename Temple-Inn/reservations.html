@@ -37,43 +37,27 @@
         <form method="get" action="thankyou.html">
             <fieldset>
                 <legend>General Information</legend>
-                <label class="top">First Name*<input type="text" name="first name" placeholder="Russell" required></label>
-                <label class="top">Last Name*<input type="text" name="last name" placeholder="Nelson" required></label>
-                <label class="top">Email*<input type="email" name="email" placeholder="rusellnelson@gmail.com" required></label>
-                <label class="top">Phone*<input type="tel" name="phone" placeholder="(801) 888-8888" required></label>
+                <label class="info">First Name*<input type="text" name="first name" placeholder="Russell" required></label>
+                <label class="info">Last Name*<input type="text" name="last name" placeholder="Nelson" required></label>
+                <label class="info">Email*<input type="email" name="email" placeholder="rusellnelson@gmail.com" required></label>
+                <label class="info">Phone*<input type="tel" name="phone" placeholder="(801) 888-8888" required></label>
+                </label>
             </fieldset>
             <fieldset>
                 <legend>Trip Information</legend>
-                <label class="top">Location<input type="text" name="business-name"  title="business name"></label>
-                <label class="top">Position<input type="text" name="position" title="position" pattern="[A-Za-z\s-]{7,}" required></label>
-                <label class="top">Description <br><textarea rows="3" name="bus-description"></textarea></label>
-            </fieldset>
-            <fieldset>
-                <legend>Membership Package</legend>
-                <h3>Non-profit</h3>
-                <p>
-                    The Non-profit Membership is for non profit organizations and there is no fee.
-                </p>
-                <h3>Membership</h3>
-                <p>
-                    With the Bronze Membership you will get Access to our Company's directory, and you will also get featured on our website to help you grow faster by helping you connect with more businesses and costumers.
-                </p>
-                <h3>Silver Membership</h3>
-                <p>
-                    With the Silver Membership you will not only get featured on our website, but you will also get access to many local business events, and radio and television advertisement.
-                </p>
-                <h3>Membership</h3>
-                <p>
-                    With the Gold Membership you will have acces to all of our services from the lower level memberships, and you will also have access to all of our media marketing services which include, Social Media sponoreds ads, YouTube ads, Google and Facebook reviews, and my other tools that will help you grow your business much faster.
-                </p>
-                <label for="membership">Memberships:</label>
-                    <select name="membership" id="membership">
-                        <option value=""> Select Memebership Level</option>
-                        <option value="0">Non-profit</option>
-                        <option value="1">Bronze Membership $500. </option>
-                        <option value="2">Silver Membership $1,000.</option>
-                        <option value="3">Gold Membership $2,000. </option>
+                <label class="info">Location<select class="temple-location">
+                    <option value="N/A">Select Location</option>
+                    <option value="N/A">Italy</option>
+                    <option value="NY">New York</option>
+                    <option value="UT">Alaska</option>
+                    <option value=HI">Hawaii</option>
+                    <option value="NV">Las Vegas</option>
+                    <label class="info">Date<input type="date" name="date" title="Date" required></label>
+                    <label class="info">Number of Rooms<input type="number" name="room" title="Rooms" required></label>
+                    <label class="info">Type of Rooms<input type="text" name="rooms" title="Type of Rooms" required></label>
+                    <label class="info">Special Accomodations/Comments <br><textarea rows="5" name="comments" title="Special/Comments"></textarea></label>
                     </select>
+                </label>
             </fieldset>
             <p class="button-submit">
             <input type="hidden" id="submitdate" name="submitdate" value="">
