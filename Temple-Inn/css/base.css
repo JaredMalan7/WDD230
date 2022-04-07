@@ -272,14 +272,57 @@ div.directory span{
     padding: 1em;
     background-color: #AD974F;
 }
+/*--------------------main Reservations-------------*/
 
 .booking-grid{
     display: grid;
     grid-gap: 1em;
 }
 
-.reservations-img{
+/* .reservations-img{
     max-width: 90%;
+} */
+
+
+form {
+    margin: auto .5rem;
+}
+form label {
+    width: 90%;
+    /* float: left; */
+    padding: 10px;
+    /* min-height: 50px; */
+    display: inline-grid;
+}
+form label input,
+form label select,
+form label textarea {
+    min-width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 7px;
+    border-radius: 3px;
+    border: solid 1px lightgrey;
+}
+
+form legend {
+    color: white;
+    margin: 0 1rem;
+    padding: 0.5rem;
+    background-color: #AD974F;
+}
+
+form input.submitbutton {
+    display: block;
+    padding: 1rem;
+    border: none;
+    background-color: #AD974F;
+    color: white;
+    margin: 0 auto;
+}
+
+form input.submitbutton:hover {
+    background-color: #231F20;
+    cursor: pointer;
 }
 /*-----------Main-Services-----------------------*/
 
