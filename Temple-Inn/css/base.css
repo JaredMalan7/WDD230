@@ -192,8 +192,9 @@ img.banner-picture{
     /* border-radius: 7px; */
     margin-bottom: 1em;
     margin-right: 1em;
-    font-size: 1.8em;
+    /* font-size: 1.8em; */
 }
+
 
 /* -----------------Spotlight-Temples--------------------------*/
 
@@ -359,6 +360,11 @@ div.services-grid h2{
     text-decoration: none;
     color: #231F20;
 }
+
+button{
+    padding: .5em;
+}
+
 
 /* ------------------Weather-----------------------*/
 
